@@ -29,6 +29,14 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=XIuUIMwAAAAJ&hl=en&authuser=2
+- icon: cv
+  icon_pack: fas
+  link: https://europa.eu/!jN63xK    
+- icon: researchgate
+  icon_pack: fas
+  link: https://www.researchgate.net/profile/Temur_Gugushvili2
+
+
   
 superuser: true
 title: Temur Gugushvili
