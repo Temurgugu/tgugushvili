@@ -28,4 +28,10 @@ user_groups:
 - Visitors
 ---
 
-# coming soon
+Currently, I am working at the [National Agency for Crime Prevention and Probation](https://www.facebook.com/CenterforCrimePrevention) as head of Research and Service Department. At the same time, I am a PhD Candidate at Tbilisi State University, Department of Sociology. My academic career already includes several impactful research projects focusing on people's livelihoods in rural and mountain settlements. 
+
+As doing research is my everyday life in both public and academic career, I see the advantages as well as disadvantages of both qualitative and quantitative research methods. That is why, in some cases, the only solution to capture the whole perspective is to craft a mixed-methods research design. 
+
+After accumulating research experiences in interdisciplinary, transdisciplinary, participatory, action and transformative studies, I am in favour of these approaches which prevent staying the research results on the dusty shells or databases.
+
+I believe that the researcher's primary role is to explore hitherto hidden and spread it in an understandable way to each person. For this reason, I synthesise in practice social science theories, methods and information handling tools, such as R/Rstudio, QGIS, SPSS, Excel, Access, MAXQDA, Mendeley, etc.
