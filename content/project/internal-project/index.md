@@ -1,31 +1,45 @@
 ---
-date: "2016-04-27T00:00:00Z"
+date: "2018-04-18T00:00:00Z"
 external_link: ""
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Photo by Temur Gugushvili
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
-slides: example
-summary: An example of using the in-built project page.
+- icon: 
+  icon_pack: 
+  name: 
+  url: 
+slides: 
+summary: the project serves primary aim to study the spatial peculiarities and obstacles of integration process of local community-driven economic activities with local tourism supply chain.
 tags:
-- Deep Learning
-title: Internal Project
+- tourism
+- mountain
+- rural
+- livelihood
+- completed 
+title: Linkages Between Tourism and Community - Driven Economic Activities - Shaping Sustainability in Mountain Regions (2018-2020)
 url_code: ""
-url_pdf: ""
+url_pdf: "https://2bf261c9-de86-45fd-8352-6cb360ec7955.filesusr.com/ugd/94acf7_544214f380bb49d68eb692ee3e4c5a20.pdf"
 url_slides: ""
 url_video: ""
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+The interdisciplinary research project generally intends to unfold the possible scenario/model how the tourism development can promote socioeconomic improvement in mountainous regions of Georgia. With this in mind, the project serves primary aim to study the spatial peculiarities and barriers/obstacles of integration process of local community-driven economic activities with local tourism supply chain to promote the establishment of relevant linkages and synchronized development of economic fields in the mountain regions of Georgia. Admittedly, as the study generally seeks to bolster sustainable and inclusive tourism development, great emphasis will be placed on using community-based participatory approach. 
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+The research project idea and the need of its implementation is inspired and derived from the research results of international interdisciplinary project "AMIES II - “Scenario Development for Sustainable Land Use in the Greater Caucasus, Georgia” funded by Volkswagen foundation. Based on the joint collaboration between the German (Justus Liebig University Giessen) and Georgian Universities (Tbilisi‐ based State Universities (ISU, TSU, AUG). AMIES II was conducted in one of the most visited resort places in mountain regions of Georgia- Kazbegu District (Municipality). As the research revealed, the rapid expansion of tourist sector (hotels and other accommodation, food joints, etc.) in the areas under investigation triggers notable economic progress, albeit the development is still fragmented and incomplete. Hence, this fact alludes to the inevitable need for thorough study of this phenomenon.
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+Research Areas: Kazbegi District/highland townlet; Mestia District/highland townlet. 
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+Principal Investigator - [**Prof. Dr. Joseph Salukvadze**](https://scholar.google.com/citations?user=knUVF8sAAAAJ&hl=en) <br>
+Project Coordinator - [**Temur Gugushvili**](https://scholar.google.com/citations?user=XIuUIMwAAAAJ&hl=en), PhD Candidate <br>
+Young Scientist - [**Gvantsa Salukvadze**](https://scholar.google.com/citations?user=KP-aQeYAAAAJ&hl=en), PhD Candidate
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+Applicant Institution: Ivane Javakhishvili Tbilisi State University (TSU)
+Partner Institution: Justus Liebig University Giessen
+Foreign Research Consultant: Prof. em. Dr. I.-U. Leonhäuser
+
+Consultants (TSU): Prof. Dr. Nino Pavliashvili (Department of Human Geography); 
+Prof. Dr. Joseph Khelashvili (Department of Tourism and Hospitality Management); 
+Prof.Dr. Nino Durglishvili (Department of Sociology),
+
+The project is generously funded by [Shota Rustaveli National Science Foundation](https://rustaveli.org.ge/)

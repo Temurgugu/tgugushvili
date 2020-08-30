@@ -5,12 +5,28 @@
     <link>/author/temur-gugushvili/</link>
       <atom:link href="/author/temur-gugushvili/index.xml" rel="self" type="application/rss+xml" />
     <description>Temur Gugushvili</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Thu, 15 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/Mountain.png</url>
       <title>Temur Gugushvili</title>
       <link>/author/temur-gugushvili/</link>
     </image>
+    
+    <item>
+      <title>Has Traditional Georgian Hospitality Been Sustained Under Tourism Development? Evidence from the High-Mountain Regions of Georgia</title>
+      <link>/publication/journal-article/</link>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fragmented development - Tourism-driven economic changes in Kazbegi, Georgia</title>
+      <link>/publication/journal-article_1/</link>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article_1/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
