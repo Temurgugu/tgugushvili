@@ -15,7 +15,7 @@ featured: false
 image: 
 image:
   placement: 1
-  caption: "Photo by [Temur Gugushvili]()"
+  caption: "Sankey Diagram  by [Temur Gugushvili]()"
   focal_point: "Center"
   preview_only: false
   alt_text: An optional description of the image for screen readers.
