@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
-title = "Projects"
+title = "პროექტები"
 subtitle = ""
 
 [content]
@@ -26,23 +26,23 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Completed"
+    name = "დასრულებული"
     tag = "completed"
   
   [[content.filter_button]]
-    name = "Rural"
+    name = "სოფელი"
     tag = "rural"
 
   [[content.filter_button]]
-    name = "Mountain"
+    name = "მთა"
     tag = "mountain"
  
   [[content.filter_button]]
-    name = "Tourism"
+    name = "ტურიზმი"
     tag = "tourism"   
     
  [[content.filter_button]]
-    name = "Livelihood"
+    name = "საარსებო წყარო"
     tag = "livelihood"   
 
 [design]

@@ -4,7 +4,7 @@
   translation: Toggle navigation
 
 - id: table_of_contents
-  translation: Table of Contents
+  translation: სარჩევი
 
 - id: on_this_page
   translation: Contents
@@ -21,10 +21,10 @@
   translation: min read
 
 - id: previous
-  translation: Previous
+  translation: წინა
 
 - id: next
-  translation: Next
+  translation: შემდეგი
 
 - id: figure
   translation: "Figure %d:"
@@ -52,25 +52,25 @@
   translation: PDF
 
 - id: btn_cite
-  translation: Cite
+  translation: ციტირება
 
 - id: btn_slides
-  translation: Slides
+  translation: პრეზენტაცია
 
 - id: btn_video
   translation: ვიდეო
 
 - id: btn_code
-  translation: Code
+  translation: კოდი
 
 - id: btn_dataset
-  translation: Dataset
+  translation: მონაცემთა ბაზა
 
 - id: btn_project
   translation: პროექტი
 
 - id: btn_poster
-  translation: Poster
+  translation: პოსტერი
 
 - id: btn_source
   translation: Source Document
@@ -84,13 +84,13 @@
 # About widget
 
 - id: interests
-  translation: Interests
+  translation: ინტერესები
 
 - id: education
-  translation: Education
+  translation: განათლება
 
 - id: user_profile_latest
-  translation: Latest
+  translation: უახლესი
 
 # Accomplishments widget
 
@@ -105,16 +105,16 @@
 # Pages widget
 
 - id: more_pages
-  translation: See all
+  translation: ყველა
 
 - id: more_posts
-  translation: See all posts
+  translation: ყველა პოსტი
 
 - id: more_talks
   translation: See all talks
 
 - id: more_publications
-  translation: See all publications
+  translation: ყველა პუბლიკაცია
 
 # Contact widget
 
@@ -125,7 +125,7 @@
   translation: ელ. ფოსტა
 
 - id: contact_message
-  translation: Message
+  translation: შეტყობინება
 
 - id: contact_send
   translation: გაგზავნა
@@ -142,13 +142,13 @@
   translation: პუბლიკაცია
 
 - id: publication_type
-  translation: Type
+  translation: პუბლიკაციის ტიპი
 
 - id: date
-  translation: Date
+  translation: თარიღი
 
 - id: last_updated
-  translation: Last updated on
+  translation: უახლესი განახლება
 
 - id: event
   translation: Event
@@ -172,13 +172,13 @@
   translation: Report
 
 - id: pub_book
-  translation: Book
+  translation: წიგნი
 
 - id: pub_book_section
   translation: Book section
 
 - id: pub_thesis
-  translation: Thesis
+  translation: თეზისი
 
 - id: pub_patent
   translation: Patent
@@ -191,10 +191,10 @@
 # Content types for default archive page titles and search results
 
 - id: posts
-  translation: Posts
+  translation: პოსტები
 
 - id: publications
-  translation: Publications
+  translation: პუბლიკაციები
 
 - id: talks
   translation: Talks
@@ -203,7 +203,7 @@
   translation: პროექტები
 
 - id: slides
-  translation: Slides
+  translation: პრეზენტაციები
 
 # Search
 
