@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Temur Gugushvili</title>
+    <link>/en/authors/temur-gugushvili/</link>
+      <atom:link href="/en/authors/temur-gugushvili/index.xml" rel="self" type="application/rss+xml" />
+    <description>Temur Gugushvili</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright>
+    <image>
+      <url>/media/Mountain.png</url>
+      <title>Temur Gugushvili</title>
+      <link>/en/authors/temur-gugushvili/</link>
+    </image>
+    
+  </channel>
+</rss>
