@@ -494,7 +494,7 @@
   
   <url>
     <loc>/tag/completed/</loc>
-    <lastmod>2018-04-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
@@ -508,23 +508,8 @@
   </url>
   
   <url>
-    <loc>/project/internal-project/</loc>
-    <lastmod>2018-04-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/project/internal-project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/project/internal-project/"
-                />
-  </url>
-  
-  <url>
     <loc>/tag/livelihood/</loc>
-    <lastmod>2018-04-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
@@ -539,7 +524,7 @@
   
   <url>
     <loc>/tag/mountain/</loc>
-    <lastmod>2018-04-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
@@ -554,7 +539,7 @@
   
   <url>
     <loc>/project/</loc>
-    <lastmod>2018-04-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
@@ -568,8 +553,13 @@
   </url>
   
   <url>
+    <loc>/tag/protected-area/</loc>
+    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/rural/</loc>
-    <lastmod>2018-04-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
@@ -584,7 +574,7 @@
   
   <url>
     <loc>/tag/tourism/</loc>
-    <lastmod>2018-04-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
@@ -594,6 +584,26 @@
                 rel="alternate"
                 hreflang="en"
                 href="/tag/tourism/"
+                />
+  </url>
+  
+  <url>
+    <loc>/project/livelihood_pa/</loc>
+    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/internal-project/</loc>
+    <lastmod>2018-04-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/project/internal-project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/project/internal-project/"
                 />
   </url>
   

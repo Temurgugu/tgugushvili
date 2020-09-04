@@ -43,7 +43,11 @@ subtitle = ""
     
  [[content.filter_button]]
     name = "Livelihood"
-    tag = "livelihood"   
+    tag = "livelihood" 
+    
+ [[content.filter_button]]
+    name = "Protected area"
+    tag = "protected area"  
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

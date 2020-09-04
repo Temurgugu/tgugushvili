@@ -44,6 +44,10 @@ subtitle = ""
  [[content.filter_button]]
     name = "საარსებო წყარო"
     tag = "livelihood"   
+ 
+  [[content.filter_button]]
+    name = "დაცული ტერიტორიები"
+    tag = "protected area"      
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
