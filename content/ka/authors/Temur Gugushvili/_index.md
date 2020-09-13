@@ -4,7 +4,7 @@ authors:
 bio:
 
 organizations:
-- name: დანაშაულისა პრევენციისა და პრობაციის ეროვნული სააგენტო
+- name: დანაშაულის პრევენციისა და პრობაციის ეროვნული სააგენტო
   url: "https://www.facebook.com/CenterforCrimePrevention"
 role: კვლევისა და სერვისების დეპარტამენტის უფროსი
 social:
