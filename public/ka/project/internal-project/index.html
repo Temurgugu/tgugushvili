@@ -33,8 +33,6 @@
   <meta name="description" content="the project serves primary aim to study the spatial peculiarities and obstacles of integration process of local community-driven economic activities with local tourism supply chain.">
 
   
-  <link rel="alternate" hreflang="en" href="/project/internal-project/">
-  
   <link rel="alternate" hreflang="ka" href="/ka/project/internal-project/">
 
   
@@ -221,6 +219,44 @@
   
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177295423-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-177295423-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -552,21 +588,6 @@
       </li>
       
 
-      
-      <li class="nav-item dropdown i18n-dropdown">
-        <a href="#" class="nav-link " data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
-        <div class="dropdown-menu">
-          <div class="dropdown-item dropdown-item-active">
-            <span>ქართული</span>
-          </div>
-          
-          <a class="dropdown-item" href="/project/internal-project/">
-            <span>English</span>
-          </a>
-          
-        </div>
-      </li>
       
 
     </ul>
@@ -1269,7 +1290,7 @@ Prof.Dr. Nino Durglishvili (Department of Sociology),</p>
   
 
   <p class="powered-by">
-    2020
+    © Temur Gugushvili 2020 - 2020
   </p>
 
   

@@ -223,6 +223,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177295423-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-177295423-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -741,9 +779,10 @@ Young Scientist -
 <p>Applicant Institution: Ivane Javakhishvili Tbilisi State University (TSU)
 Partner Institution: Justus Liebig University Giessen
 Foreign Research Consultant: Prof. em. Dr. I.-U. Leonhäuser</p>
-<p>Consultants (TSU): Prof. Dr. Nino Pavliashvili (Department of Human Geography);
-Prof. Dr. Joseph Khelashvili (Department of Tourism and Hospitality Management);
-Prof.Dr. Nino Durglishvili (Department of Sociology),</p>
+<p>Consultants (TSU):<br>
+Prof. Dr. Nino Pavliashvili (Department of Human Geography); <br>
+Prof. Dr. Joseph Khelashvili (Department of Tourism and Hospitality Management); <br>
+Prof. Dr. Nino Durglishvili (Department of Sociology),</p>
 <p>The project is generously funded by 
 <a href="https://rustaveli.org.ge/" target="_blank" rel="noopener">Shota Rustaveli National Science Foundation</a></p>
 
@@ -1003,6 +1042,127 @@ Prof.Dr. Nino Durglishvili (Department of Sociology),</p>
 
       
       
+      
+        <h2>Publications</h2>
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/spatial_peculiarities_ltsc/" >Spatial Peculiarities of Local Tourism Supply Chains in High-Mountainous Georgia - Challenges and Perspectives</a>
+    </h3>
+
+    
+    <a href="/publication/spatial_peculiarities_ltsc/" class="summary-link">
+      <div class="article-style">
+        The presented article identifies the main actors in the local tourism supply chain and examines its functioning in the spatial context of Mestia Municipality.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Gvantsa Salukvadze</span><span title="Equal contribution" class="author-notes">(?)</span>, <span ><a href="/author/temur-gugushvili/">Temur Gugushvili</a></span><span title="Equal contribution" class="author-notes">(?)</span>, <span >Joseph Salukvadze</span><span title="Equal contribution" class="author-notes">(?)</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://www.eurogeographyjournal.eu/articles/12_SALUKVADZE.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/spatial_peculiarities_ltsc/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/internal-project/">
+    Project
+  </a>
+  
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/example/" target="_blank">
+    Slides
+  </a>
+  
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/spatial_peculiarities_ltsc/" >
+      <img src="/publication/spatial_peculiarities_ltsc/featured_hu6fda1f52b557b9e51afb259eab2493ba_684811_150x0_resize_lanczos_2.png" alt="Spatial Peculiarities of Local Tourism Supply Chains in High-Mountainous Georgia - Challenges and Perspectives">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
       
 
       
@@ -1271,7 +1431,7 @@ Prof.Dr. Nino Durglishvili (Department of Sociology),</p>
   
 
   <p class="powered-by">
-    2020
+    © Temur Gugushvili 2020 - 2020
   </p>
 
   

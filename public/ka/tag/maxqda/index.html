@@ -223,6 +223,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177295423-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-177295423-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -257,7 +295,7 @@
   <meta property="og:description" content="Temur Gugushvii&#39;s personal website"><meta property="og:image" content="/media/Mountain.png">
   <meta property="twitter:image" content="/media/Mountain.png"><meta property="og:locale" content="ka">
   
-    <meta property="og:updated_time" content="2017-03-15T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2018-01-11T00:00:00&#43;00:00">
   
 
   
@@ -567,6 +605,18 @@
     
     
     <div>
+      <h2><a href="/ka/publication/maxqda_gori/" >თვისებრივ მონაცემთა ანალიზი ურბანულ დაგეგმარებაში</a></h2>
+      <div class="article-style">
+        
+          21-ე საუკუნის ეპოქამ ქალაქის ტიპის დასახლებები უნიკალური გამოწვევების წინაშე დააყენა, თუმცა მსოფლიოს მასშტაბით ბევრ ქალაქში ჯერ კიდევ გრძელდება მოძველებული ურბანული დაგეგმარების მიდგომების გამოყენება.
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
       <h2><a href="/ka/publication/journal-article_1/" >Fragmented development - Tourism-driven economic changes in Kazbegi, Georgia</a></h2>
       <div class="article-style">
         
@@ -710,7 +760,7 @@
   
 
   <p class="powered-by">
-    2020
+    © Temur Gugushvili 2020 - 2020
   </p>
 
   

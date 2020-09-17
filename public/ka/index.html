@@ -223,6 +223,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177295423-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-177295423-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -638,7 +676,7 @@
         
         <h3>
           <a href="https://www.facebook.com/CenterforCrimePrevention" target="_blank" rel="noopener">
-          <span>დანაშაულისა პრევენციისა და პრობაციის ეროვნული სააგენტო</span>
+          <span>დანაშაულის პრევენციისა და პრობაციის ეროვნული სააგენტო</span>
           </a>
         </h3>
         
@@ -1251,6 +1289,78 @@
     
 
   
+  <span >თემურ გუგუშვილი</span>, <span >გვანცა სალუქვაძე</span>
+  </span>
+  (2018).
+  <a href="/ka/publication/maxqda_gori/">თვისებრივ მონაცემთა ანალიზი ურბანულ დაგეგმარებაში</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.maxqda.com/maxqda-in-urban-planning" target="_blank" rel="noopener">
+    
+    ბლოგი სტატია
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
   <span ><a href="/ka/author/%E1%83%97%E1%83%94%E1%83%9B%E1%83%A3%E1%83%A0-%E1%83%92%E1%83%A3%E1%83%92%E1%83%A3%E1%83%A8%E1%83%95%E1%83%98%E1%83%9A%E1%83%98/">თემურ გუგუშვილი</a></span><span title="Equal contribution" class="author-notes">(?)</span>, <span >Gvantsa Salukvadze</span><span title="Equal contribution" class="author-notes">(?)</span>, <span >Joseph Salukvadze</span><span title="Equal contribution" class="author-notes">(?)</span>
   </span>
   (2017).
@@ -1649,7 +1759,7 @@
   
 
   <p class="powered-by">
-    2020
+    © Temur Gugushvili 2020 - 2020
   </p>
 
   

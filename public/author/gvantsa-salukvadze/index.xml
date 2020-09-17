@@ -5,7 +5,7 @@
     <link>/author/gvantsa-salukvadze/</link>
       <atom:link href="/author/gvantsa-salukvadze/index.xml" rel="self" type="application/rss+xml" />
     <description>Gvantsa Salukvadze</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020</copyright><lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Temur Gugushvili 2020 - 2020 </copyright><lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/Mountain.png</url>
       <title>Gvantsa Salukvadze</title>
@@ -25,6 +25,14 @@
       <link>/publication/journal-article/</link>
       <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAXQDA – a QDA Software that Plans: Qualitative Data Analysis in Urban Planning</title>
+      <link>/publication/maxqda_gori/</link>
+      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/maxqda_gori/</guid>
       <description></description>
     </item>
     

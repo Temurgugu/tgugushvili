@@ -223,6 +223,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177295423-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-177295423-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -1018,11 +1056,11 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/project/internal-project/" >Linkages Between Tourism and Community - Driven Economic Activities - Shaping Sustainability in Mountain Regions (2018-2020)</a>
+      <a href="/project/linkages_tourism/" >Linkages Between Tourism and Community - Driven Economic Activities - Shaping Sustainability in Mountain Regions (2018-2020)</a>
     </h3>
 
     
-    <a href="/project/internal-project/" class="summary-link">
+    <a href="/project/linkages_tourism/" class="summary-link">
       <div class="article-style">
         the project serves primary aim to study the spatial peculiarities and obstacles of integration process of local community-driven economic activities with local tourism supply chain.
       </div>
@@ -1100,8 +1138,8 @@
     
     
     
-    <a href="/project/internal-project/" >
-      <img src="/project/internal-project/featured_hud953ce9f16e6a320d540204e73eb31cb_2378182_150x0_resize_q90_lanczos.jpg" alt="Linkages Between Tourism and Community - Driven Economic Activities - Shaping Sustainability in Mountain Regions (2018-2020)">
+    <a href="/project/linkages_tourism/" >
+      <img src="/project/linkages_tourism/featured_hud953ce9f16e6a320d540204e73eb31cb_2378182_150x0_resize_q90_lanczos.jpg" alt="Linkages Between Tourism and Community - Driven Economic Activities - Shaping Sustainability in Mountain Regions (2018-2020)">
     </a>
     
   </div>
@@ -1268,6 +1306,12 @@
 
 
 
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/linkages_tourism/">
+    Project
+  </a>
+  
+
 
 
 
@@ -1336,6 +1380,12 @@
 
 
 
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/linkages_tourism/">
+    Project
+  </a>
+  
+
 
 
 
@@ -1352,6 +1402,78 @@
   DOI
 </a>
 
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span ><a href="/author/temur-gugushvili/">Temur Gugushvili</a></span>, <span >Gvantsa Salukvadze</span>
+  </span>
+  (2018).
+  <a href="/publication/maxqda_gori/">MAXQDA – a QDA Software that Plans: Qualitative Data Analysis in Urban Planning</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.maxqda.com/maxqda-in-urban-planning" target="_blank" rel="noopener">
+    
+    Blog article on MAXQDA
+  </a>
 
 </p>
 
@@ -1764,7 +1886,7 @@
   
 
   <p class="powered-by">
-    2020
+    © Temur Gugushvili 2020 - 2020
   </p>
 
   

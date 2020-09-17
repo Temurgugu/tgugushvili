@@ -40,7 +40,7 @@ subtitle = ""
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "20px", "0"]
+  padding = ["90px", "20px", "20px", "90px"]
 
 [advanced]
  # Custom CSS. 
@@ -57,6 +57,8 @@ Welcome to the **personal demo** of Academic. Other demos available include:
 **Over 100,000 [Amazing Websites](https://sourcethemes.com/academic/#expo) have Already Been Built with Academic**
 
 **[Join](https://sourcethemes.com/academic/docs/install/) the Most Empowered Hugo Community**
+
+here is my article and projects 
 
 {{% alert note %}}
 This homepage section is an example of adding [elements](https://sourcethemes.com/academic/docs/writing-markdown-latex/) to the [*Blank* widget](https://sourcethemes.com/academic/docs/widgets/).

@@ -5,12 +5,20 @@
     <link>/ka/tag/maxqda/</link>
       <atom:link href="/ka/tag/maxqda/index.xml" rel="self" type="application/rss+xml" />
     <description>MAXQDA</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ka</language><copyright>2020</copyright><lastBuildDate>Wed, 15 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ka</language><copyright>© Temur Gugushvili 2020 - 2020 </copyright><lastBuildDate>Thu, 11 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/Mountain.png</url>
       <title>MAXQDA</title>
       <link>/ka/tag/maxqda/</link>
     </image>
+    
+    <item>
+      <title>თვისებრივ მონაცემთა ანალიზი ურბანულ დაგეგმარებაში</title>
+      <link>/ka/publication/maxqda_gori/</link>
+      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/ka/publication/maxqda_gori/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fragmented development - Tourism-driven economic changes in Kazbegi, Georgia</title>

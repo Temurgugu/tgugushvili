@@ -223,6 +223,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177295423-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-177295423-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -954,7 +992,9 @@
       
       <li><a href="/project/livelihood_pa/">Transformation of Livelihood Practices in Rural and Mountainous Settlements Located at the Edge of Protected Areas in Georgia (2018-2019)</a></li>
       
-      <li><a href="/project/internal-project/">Linkages Between Tourism and Community - Driven Economic Activities - Shaping Sustainability in Mountain Regions (2018-2020)</a></li>
+      <li><a href="/project/linkages_tourism/">Linkages Between Tourism and Community - Driven Economic Activities - Shaping Sustainability in Mountain Regions (2018-2020)</a></li>
+      
+      <li><a href="/publication/maxqda_gori/">MAXQDA – a QDA Software that Plans: Qualitative Data Analysis in Urban Planning</a></li>
       
     </ul>
   </div>
@@ -1097,7 +1137,7 @@
   
 
   <p class="powered-by">
-    2020
+    © Temur Gugushvili 2020 - 2020
   </p>
 
   

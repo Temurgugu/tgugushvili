@@ -593,18 +593,63 @@
   </url>
   
   <url>
-    <loc>/project/internal-project/</loc>
+    <loc>/project/linkages_tourism/</loc>
     <lastmod>2018-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/0/</loc>
+    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
-                href="/ka/project/internal-project/"
+                href="/ka/publication-type/0/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/project/internal-project/"
+                href="/publication-type/0/"
                 />
+  </url>
+  
+  <url>
+    <loc>/tag/development/</loc>
+    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/maxqda/</loc>
+    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/tag/maxqda/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tag/maxqda/"
+                />
+  </url>
+  
+  <url>
+    <loc>/publication/maxqda_gori/</loc>
+    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/publication/maxqda_gori/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/maxqda_gori/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tag/urban/</loc>
+    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -664,21 +709,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/tag/kazbegi/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tag/maxqda/</loc>
-    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/tag/maxqda/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/maxqda/"
                 />
   </url>
   
