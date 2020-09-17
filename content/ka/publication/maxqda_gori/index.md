@@ -45,7 +45,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'IDPs Settlement, City of Gori by **Temur Gugushvili**'
+  caption: 'დევნილთა დასახლებები, ქალაქი გორი, **თემურ გუგუშვილი**'
   focal_point: ""
   preview_only: false
 
