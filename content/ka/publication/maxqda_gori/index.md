@@ -28,6 +28,7 @@ tags:
 - MAXQDA
 - ქალაქი
 - განვითარება
+- გორი
 featured: false
 
 links:

@@ -5,12 +5,20 @@
     <link>/tag/rural/</link>
       <atom:link href="/tag/rural/index.xml" rel="self" type="application/rss+xml" />
     <description>rural</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Temur Gugushvili 2020 - 2020 </copyright><lastBuildDate>Mon, 21 May 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Temur Gugushvili 2020 - 2020 </copyright><lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/Mountain.png</url>
       <title>rural</title>
       <link>/tag/rural/</link>
     </image>
+    
+    <item>
+      <title>Linkages Between Tourism and Community-Driven Economic Activities: Shaping Sustainability in Mountain Regions</title>
+      <link>/publication/blog_tourism_linkage/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/blog_tourism_linkage/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Transformation of Livelihood Practices in Rural and Mountainous Settlements Located at the Edge of Protected Areas in Georgia (2018-2019)</title>

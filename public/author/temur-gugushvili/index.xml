@@ -5,11 +5,16 @@
     <link>/author/temur-gugushvili/</link>
       <atom:link href="/author/temur-gugushvili/index.xml" rel="self" type="application/rss+xml" />
     <description>Temur Gugushvili</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Temur Gugushvili 2020 - 2020 </copyright><lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Temur Gugushvili 2020 - 2020 </copyright>
     <image>
       <url>/media/Mountain.png</url>
       <title>Temur Gugushvili</title>
       <link>/author/temur-gugushvili/</link>
+    </image>
+    
+  </channel>
+</rss>
+    <link>/author/temur-gugushvili/</link>
     </image>
     
     <item>
@@ -25,6 +30,14 @@
       <link>/publication/journal-article/</link>
       <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linkages Between Tourism and Community-Driven Economic Activities: Shaping Sustainability in Mountain Regions</title>
+      <link>/publication/blog_tourism_linkage/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/blog_tourism_linkage/</guid>
       <description></description>
     </item>
     
@@ -166,9 +179,9 @@ Three
     
     <item>
       <title>MAXQDA – a QDA Software that Plans: Qualitative Data Analysis in Urban Planning</title>
-      <link>/publication/maxqda_gori/</link>
+      <link>/publication/blog_maxqda_gori/</link>
       <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/maxqda_gori/</guid>
+      <guid>/publication/blog_maxqda_gori/</guid>
       <description></description>
     </item>
     

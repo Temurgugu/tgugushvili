@@ -28,6 +28,7 @@ tags:
 - MAXQDA
 - urban
 - development
+- gori
 featured: false
 
 links:

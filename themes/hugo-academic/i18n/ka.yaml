@@ -154,22 +154,22 @@
   translation: Event
 
 - id: location
-  translation: Location
+  translation: მდებარეობა
 
 - id: pub_uncat
-  translation: Uncategorized
+  translation: დაუხარისხებელი
 
 - id: pub_conf
   translation: Conference paper
 
 - id: pub_journal
-  translation: Journal article
+  translation: სტატია
 
 - id: pub_preprint
   translation: Preprint
 
 - id: pub_report
-  translation: Report
+  translation: ანგარიში
 
 - id: pub_book
   translation: წიგნი
@@ -181,7 +181,8 @@
   translation: თეზისი
 
 - id: pub_patent
-  translation: Patent
+  translation: პატენტი
+
 
 # Project details
 
@@ -208,10 +209,10 @@
 # Search
 
 - id: search
-  translation: Search
+  translation: ძიება
 
 - id: search_placeholder
-  translation: Search...
+  translation: ძიება...
 
 - id: search_results
   translation: results found

@@ -288,6 +288,76 @@
   </url>
   
   <url>
+    <loc>/publication-type/0/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/publication-type/0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication-type/0/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tag/development/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/interdisciplinary/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/kazbegi/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/blog_tourism_linkage/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/mounation/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/rural/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/tag/rural/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tag/rural/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tag/tourism/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/tag/tourism/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tag/tourism/"
+                />
+  </url>
+  
+  <url>
     <loc>/author/admin/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -458,36 +528,6 @@
   </url>
   
   <url>
-    <loc>/tag/rural/</loc>
-    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/tag/rural/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/rural/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tag/tourism/</loc>
-    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/tag/tourism/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/tourism/"
-                />
-  </url>
-  
-  <url>
     <loc>/project/livelihood_pa/</loc>
     <lastmod>2018-05-21T00:00:00+00:00</lastmod>
   </url>
@@ -498,22 +538,7 @@
   </url>
   
   <url>
-    <loc>/publication-type/0/</loc>
-    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/publication-type/0/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/publication-type/0/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tag/development/</loc>
+    <loc>/tag/gori/</loc>
     <lastmod>2018-01-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -533,18 +558,8 @@
   </url>
   
   <url>
-    <loc>/publication/maxqda_gori/</loc>
+    <loc>/publication/blog_maxqda_gori/</loc>
     <lastmod>2018-01-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/publication/maxqda_gori/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/publication/maxqda_gori/"
-                />
   </url>
   
   <url>
@@ -564,11 +579,6 @@
   
   <url>
     <loc>/publication/journal-article_1/</loc>
-    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/kazbegi/</loc>
     <lastmod>2017-03-15T00:00:00+00:00</lastmod>
   </url>
   
