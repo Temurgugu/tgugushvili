@@ -49,7 +49,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Mestia municipality, photo, by **Temur Gugushvili**'
+  caption: 'Mestia municipality, photo by **Temur Gugushvili**'
   focal_point: ""
   preview_only: false
 

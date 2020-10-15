@@ -260,16 +260,6 @@
   <url>
     <loc>/post/writing-technical-content/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/post/writing-technical-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/post/writing-technical-content/"
-                />
   </url>
   
   <url>
@@ -360,31 +350,11 @@
   <url>
     <loc>/author/admin/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/author/admin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/author/admin/"
-                />
   </url>
   
   <url>
     <loc>/post/jupyter/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/post/jupyter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/post/jupyter/"
-                />
   </url>
   
   <url>
@@ -585,31 +555,11 @@
   <url>
     <loc>/tag/academic/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/tag/academic/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/academic/"
-                />
   </url>
   
   <url>
     <loc>/post/getting-started/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/post/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/post/getting-started/"
-                />
   </url>
   
   <url>
@@ -630,16 +580,6 @@
   <url>
     <loc>/category/demo/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/category/demo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/category/demo/"
-                />
   </url>
   
   <url>
@@ -660,106 +600,36 @@
   <url>
     <loc>/tag/%E5%BC%80%E6%BA%90/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/tag/%E5%BC%80%E6%BA%90/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/%E5%BC%80%E6%BA%90/"
-                />
   </url>
   
   <url>
     <loc>/category/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/category/%E6%95%99%E7%A8%8B/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/category/%E6%95%99%E7%A8%8B/"
-                />
   </url>
   
   <url>
     <loc>/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/post/2015-07-23-r-rmarkdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/post/2015-07-23-r-rmarkdown/"
-                />
   </url>
   
   <url>
     <loc>/tag/plot/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/tag/plot/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/plot/"
-                />
   </url>
   
   <url>
     <loc>/category/r/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/category/r/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/category/r/"
-                />
   </url>
   
   <url>
     <loc>/tag/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/tag/r-markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/r-markdown/"
-                />
   </url>
   
   <url>
     <loc>/tag/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/tag/regression/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/regression/"
-                />
   </url>
   
   <url>
@@ -801,13 +671,13 @@
     <loc>/author/temur-gugushvili/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/author/temur-gugushvili/"
+                hreflang="ka"
+                href="/ka/author/temur-gugushvili/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ka"
-                href="/ka/author/temur-gugushvili/"
+                hreflang="en"
+                href="/author/temur-gugushvili/"
                 />
     <xhtml:link
                 rel="alternate"

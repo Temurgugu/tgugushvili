@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>დანაშაული | Temur Gugushvili</title>
+    <link>/ka/tag/%E1%83%93%E1%83%90%E1%83%9C%E1%83%90%E1%83%A8%E1%83%90%E1%83%A3%E1%83%9A%E1%83%98/</link>
+      <atom:link href="/ka/tag/%E1%83%93%E1%83%90%E1%83%9C%E1%83%90%E1%83%A8%E1%83%90%E1%83%A3%E1%83%9A%E1%83%98/index.xml" rel="self" type="application/rss+xml" />
+    <description>დანაშაული</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ka</language><copyright>© Temur Gugushvili 2020 - 2020 </copyright><lastBuildDate>Thu, 01 Oct 2020 21:13:14 -0500</lastBuildDate>
+    <image>
+      <url>/media/Mountain.png</url>
+      <title>დანაშაული</title>
+      <link>/ka/tag/%E1%83%93%E1%83%90%E1%83%9C%E1%83%90%E1%83%A8%E1%83%90%E1%83%A3%E1%83%9A%E1%83%98/</link>
+    </image>
+    
+    <item>
+      <title>დანაშაულთა დაკავშირებული ადმინისტრაციული მონაცემები (ნაწილი I)</title>
+      <link>/ka/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 01 Oct 2020 21:13:14 -0500</pubDate>
+      <guid>/ka/post/2015-07-23-r-rmarkdown/</guid>
+      <description>
+
+
+&lt;p&gt;სისხლის სამართლის მართლმსაჯულების სფეროში ელ. მმართველობის, მათ შორის შემთხვევბის მართვის ელექტრონული სისტემების (Case Management System) განვითარების შედეგად ხელმისაწვდომი გახდა დიდი რაოდენობით &lt;a href=&#34;https://stats.oecd.org/glossary/detail.asp?ID=6&#34;&gt;ადმინისტრაციული მონაცემები&lt;/a&gt;. მიუხედავად ადმინისტრაციული მონაცმების/ჩანაწერების შექმნის თავდაპირველი მიზანს არ წარმოადგენ პოლიტიკის ანალიზი, სოციალური მოვლენის შესწავლა, ის კვლევისა და სამოქმედო გეგმით გათვალისწინებული აქტივობების შეფასებებისათვის აქტიურად გამოიყენება. მას მნიშვნელოვანი უპირატესობა აქვს (ინფორმაციის შეგროვებისათვის მცირე ბიუჯეტი), სხვა ინფორმაციის შეგროვების საშუალებებთან - გამოკითხვა, საყოველთაო აღწერა შედარებით.&lt;/p&gt;
+&lt;p&gt;უწყებათაშორისი თანამშრომლობის მემორანდუმის საფუძველზე 2010 წლის მაისიდან &lt;a href=&#34;https://www.geostat.ge/media/16921/May-Report.pdf&#34;&gt;საქსტატი ყოველთვიურად აქვეყნებს&lt;/a&gt; სისხლის სამართლის სტატისტიკას. მიუხედავად, იმის რომ მონაცმების უმრავლესობა ხელმისაწვდომია &lt;a href=&#34;https://www.geostat.ge/ka/modules/categories/132/siskhlis-samartlis-statistika&#34;&gt;PDF გაფართოებით&lt;/a&gt;, ინფორმაციის გარკვებული ნაწილი ხელმისაწვდომია მონაცემთა ანალიზისთვის შედარებით მოსახერხებელ ფორმატში (.xls გაფართოება). თუ გაგიმართლათ, თქვენთვის საინტერესო მონაცმებს უფრო ადრეული წლიდან არის ხელმისაწვდომი. მონაცმების იძლევა შეძალობლობას გაანალიზოთ&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;car_accident &amp;lt;- read.csv (&amp;quot;~/Documents/github_project/data/avtosagzao_SemTxvevebi.csv&amp;quot;, header = TRUE)
+## Warning in read.table(file = file, header = header, sep = sep, quote = quote, :
+## incomplete final line found by readTableHeader on &amp;#39;~/Documents/github_project/
+## data/avtosagzao_SemTxvevebi.csv&amp;#39;
+
+car_accident 
+##           year X2001 X2002 X2003 X2004 X2005 X2006 X2007 X2008 X2009 X2010
+## 1    accidents  1937  2011  2113  2936  3870  4795  4946  6015  5482  5099
+## 2 intoxication   123     _   123    86   329   225   311   378   358   264
+## 3      injured  2370  2509  2585  4069  5546  7084  7349  9063  8324  7560
+## 4       killed   558   515   572   637   581   675   737   867   741   685
+##   X2011 X2012 X2013 X2014 X2015 X2016 X2017 X2018 X2019
+## 1  4486  5359  5510  5992  6432  6939  6079  6452  5839
+## 2   278   256   228   262   229   260   160   170   152
+## 3  6638  7734  8045  8536  9187  9951  8461  9047  7921
+## 4   526   605   514   511   602   581   517   459   481&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
