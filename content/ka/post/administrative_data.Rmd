@@ -1,0 +1,231 @@
+---
+title: "დანაშაულთა დაკავშირებული ადმინისტრაციული მონაცემები (ნაწილი I)"
+author: "თემურ გუგუშვილი"
+date: '2020-10-28T21:13:14-05:00'
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+tags:
+- სტატისტიკა
+- ადმინისტრაციული მონაცემები
+- დანაშაული
+categories: ადმინისტრაციული მონაცემები
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+მართლმსაჯულების სფეროში ელექტრონული მმართველობის, მათ შორის შემთხვევების მართვის/საქმისწარმოების ელექტრონული სისტემების (Case Management System) განვითარების შედეგად, დიდი რაოდენობით [ადმინისტრაციული მონაცემები](https://stats.oecd.org/glossary/detail.asp?ID=6) გახდა ხელმისაწვდომი. მიუხედავად იმისა, რომ ადმინისტრაციული მონაცემების/ჩანაწერების შექმნის თავდაპირველ მიზანს არ წარმოადგენს პოლიტიკის ანალიზი და სოციალური მოვლენის შესწავლა, მისი გამოყენება აქტიურად მიმდინარეობს კვლევებისთვისა და სამოქმედო გეგმით გათვალისწინებული აქტივობების შეფასებებისათვის. ელექტრონული ჩანაწერების გამოყენებას მნიშვნელოვანი უპირატესობა (ინფორმაციის შეგროვებისათვის მცირე ბიუჯეტი) აქვს, ინფორმაციის შეგროვების სხვა საშუალებებთან, მათ შორის გამოკითხვა და საყოველთაო აღწერა, შედარებით.
+
+[უწყებათაშორისი თანამშრომლობის მემორანდუმის საფუძველზე 2010 წლის მაისიდან](https://www.geostat.ge/media/16921/May-Report.pdf) საქსტატი ყოველთვიურად აქვეყნებს სისხლის სამართლის სტატისტიკას, რომელსაც იღებს 5 უწყებიდან:
+
+1. [დანაშაულის პრევენციისა და პრობაციის ეროვნული სააგენტო](https://www.facebook.com/CenterforCrimePrevention/);
+1. [შინაგან საქმეთა სამინისტრო](https://police.ge/), სტატისტიკური ინფორმაციის წყარო:*სისხლის სამართალწარმოების ელექტრონული სისტემა(Crimcase-2)*;
+1. [საქართველოს გენერალური პროკურატურა](http://pog.gov.ge/);
+1. [სპეციალური პენიტენციური სამსახური](http://www.sps.gov.ge/);
+1. [საქართველოს სასამართლოები](https://www.court.ge/index.php).
+
+საქსტატის ოფიციალურ ვებსაიტზე მონაცემების უმეტესობა  [.PDF გაფართოებითა არის](https://www.geostat.ge/ka/modules/categories/132/siskhlis-samartlis-statistika) განთავსებული, რაც ართულებს საჯაროდ გამოქვეყნებული, ცხრილების დამუშავებასა და ანალიზს. თუმცა ინფორმაციის გარკვეული ნაწილი ხელმისაწვდომია ანალიზისთვის შედარებით მოსახერხებელი ფორმატით (.xls). 
+
+მონაცემებზე დაყრდნობით დანაშაულთა დაკავშირებით (რეგისტრირებული დანაშაული, სასჯელი, დაზარალებული) განსხვავებული ინფორმაციის მიღება არის შესაძლებელი.  
+
+ერთ-ერთი ცხრილი იძლევა შესაძლებლობას დააკვირდეთ რეგისტრირებული დანაშაულის რაოდენობის ცვლილებას წლების მიხედვით 2001 წლიდან.
+ 
+
+```{r, include = FALSE}
+library(tidyr)
+library(tidyverse)
+library(ggplot2)
+library(readxl)
+library(extrafont)
+library(cowplot)
+library(plotly)
+library(gganimate)
+library(hrbrthemes)
+library(ggpubr)
+library(plotly)
+```
+
+
+```{r, fig.cap='', tidy=FALSE, echo=FALSE, message = FALSE, fig.dim = c(13, 9)}
+
+tg_data_1 <- read_excel("~/Documents/github_project/data/crime.xlsx")
+
+tg_p_1 <- ggplot(data=tg_data_1, aes(year, number)) +
+  geom_line(size=1.1, color = "blue")+
+  geom_point(size=3, color = "green")+
+  theme_minimal(base_family="Sylfaen")+
+  theme(axis.title.x = element_text(colour="black", size=16, hjust=0.5),
+        axis.title.y = element_text(colour="black", size=16, hjust=0.5),
+        axis.text.x=element_text(angle = 30, hjust=0.5, size=16, colour="black"),
+        axis.text.y=element_text(size=16),
+        plot.caption = element_text(size=16, colour="black", hjust=0),
+        plot.title=element_text(colour="black", size=20),
+        legend.title=element_text(size=16), 
+        legend.text=element_text(size=16))+
+  labs(title = "",
+       subtitle ="",
+       caption = "წყარო: შინაგან საქმეთა სამინისტრო\nშენიშვნა: 2005 წლის მაისიდან საქართველოს სისხლის სამართლის საპროცესო კოდექსში შეტანილია ცვლილებები,\n რომლებიც ითვალისწინებენ მოკვლევის ორგანოების გაუქმებას და წინასწარი გამოძიების დაწყებას დანაშაულის ჩადენის მომენტიდან. ",
+       color="")+
+  xlab("წელი")+
+  ylab("აბსოლუტური რაოდენობა")+
+  coord_cartesian(ylim=c(0,70000),
+                  xlim=c(2000, 2020))+
+  scale_y_continuous(breaks=seq(0, 70000, 10000))+
+  scale_x_continuous(breaks=seq(2000, 2020, 2))+
+  transition_reveal(year)
+  
+tg_p_1
+
+```
+*დიაგრამა 1. რეგისტრირებული დანაშაული წლების მიხედვით*
+
+ 
+საქსტატის გამოქვეყნებული მონაცემების გამოყენებით, ასევე შესაძლებელია 2015 წლიდან სისხლის სამართლის თავების მიხედვით რეგისტრირებულ დანაშაულზე დაკვირვება, მათ შორის დანაშაული სიცოცხლის, საკუთრების წინააღმდეგ, დანაშაული ოჯახისა და არასრულწლოვნის წინააღმდეგ. 
+
+```{r, fig.cap='', tidy=FALSE, warning = FALSE, echo=FALSE, message = FALSE, fig.dim = c(7, 6)}
+
+tg_data_3 <- read_excel("~/Documents/github_project/data/crime_type.xlsx")
+
+tg_p_3 <- ggplot(data=tg_data_3, aes(year, number_type, color = crime_type))+
+  geom_line()+
+  geom_point(aes(text = paste("დანაშაული: ", crime_type, "\n",
+                              "დანაშაულის რაოდენობა:", number_type)))+
+  theme_minimal(base_family="Sylfaen")+
+  theme(axis.title.x = element_text(colour="black", size=12, hjust=0.5),
+        axis.title.y = element_text(colour="black", size=12, hjust=0.5),
+        axis.text.x=element_text(angle = 30, hjust=0.5, size=12, colour="black"),
+        axis.text.y=element_text(size=12),
+        plot.caption = element_text(size=13, colour="black", hjust=0),
+        plot.title=element_text(colour="black", size=12),
+        legend.position = "none")+
+  #     legend.title=element_text(size=12), 
+  #     legend.text=element_text(size=12))+
+  labs(title = "",
+       subtitle ="",
+       caption = "წყარო: შინაგან საქმეთა სამინისტრო,\nსაქართველოს ყველა საგამოძიებო უწყების მონაცემები",
+       color="")+
+  xlab("წელი")+
+  ylab("აბსოლუტური რაოდენობა")+
+  coord_cartesian(ylim=c(0,30000),
+                  xlim=c(2015, 2019))+
+  scale_y_continuous(breaks=seq(0, 30000, 5000))+
+  #scale_color_discrete(name = "",
+  #                    labels = c("სიცოცხლის წინააღმდეგ",
+  #                               "ჯანმრთელობის წინააღმდეგ",
+  #                               "ადამიანის უფლებების წინააღმდეგ",
+  #                               "ოჯახისა და არასრულწლოვნის წინააღმდეგ",
+  #                               "საკუთრების წინააღმდეგ",
+  #                               "საზოგადოებრივი უშიშროების წინააღმდეგ",
+  #                               "ნარკოტიკული",
+  #                               "სატრანსპორტო",
+  #                               "სამოხელეო", 
+  #                               "მმართველობის წესის წინააღმდეგ", 
+  #                               "სხვა დანაშაული"))+
+  scale_x_continuous(breaks=seq(2015, 2019, 1))
+  
+tg_p_4 <- ggplotly(tg_p_3, tooltip = "text") 
+
+tg_p_4
+  
+```
+*დიაგრამა 2. რეგისტრირებული დანაშაული სისხლის სამართლის თავების მიხედვით*
+
+
+დამატებით, შინაგან საქმეთა სამინისტრო თავის ოფიციალურ ვებსაიტზე პერიოდულად [აქვეყნებს](https://info.police.ge/cat?id=88) რეგისტრირებულ დანაშაულთან დაკავშირებულ სხვადასხვა სტატისტიკას. ინფორმაცია ქვეყნდება განსხვავებული გაფართოებით .pptx, .pdf, .xlsx
+
+რამდენიმე ინფორმაცია [tidy ფორმატით](https://www.jstatsoft.org/article/view/v059i10) არის გამოქვეყნებული, რომლის ამარტივებს მის დამუშავებასა და იძლევა მონაცემების განსხვავებული ანალიზის შესაძლებლობას(ცვლადების განსხვავებული კომბინაციით). მსგავსი ფორმატითა არის ხელმისაწვდომი თვითმკვლელობისა და თვითმკვლელობის მცდელობის შესახებ ინფორმაცია (მწკრივები: ასაკი, სქესი, მოქალაქეობა, რეგიონი).
+
+
+```{r, fig.cap='', tidy=FALSE, echo=FALSE, message = FALSE, fig.dim = c(13, 9)}
+
+loadfonts() 
+ 
+tg_data_2 <- read_excel("~/Documents/github_project/data/suicide.xlsx")
+
+tg_p_2 <- ggplot(data=tg_data_2, aes(x=year, fill=suicide)) +
+  geom_bar(size=1.2, position = "dodge") +
+  theme_gray(base_family="Sylfaen")+
+  theme(axis.title.x = element_text(colour="black", size=16, hjust=0.5),
+        axis.title.y = element_text(colour="black", size=16, hjust=0.5),
+        axis.text.x=element_text(angle = 30,  hjust=0.5, size=16, colour="black"), 
+        legend.position = "top",
+        axis.text.y=element_text(size=16),
+        plot.caption = element_text(size=16, colour="black", hjust=0),
+        plot.title=element_text(colour="black", size=20),
+        legend.title=element_text(size=16), 
+        legend.text=element_text(size=16),
+        strip.text.x = element_text( size = 16, color = "black", face = "bold.italic"))+
+  labs(title = "",
+       subtitle ="",
+       caption = "წყარო: შინაგან საქმეთა სამინისტრო,\nმონაცემები დამუშავებულია შინაგან საქმეთა სამინისტროს ტერიტორიული დანაყოფებისმიერ მოწოდებული ინფორმაციის საფუძველზე",
+       color="")+
+  xlab("წელი, 2020 (იანვარი- ივნისი)")+
+  ylab("აბსოლუტური რაოდენობა")+
+  facet_wrap(vars(Region))+
+  coord_cartesian(ylim=c(0,150))+
+  scale_fill_discrete(name = "ლეგენდა",
+                      labels = c("თვითმკვლელობა","თვითმკვლელობის მცდელობ"))+
+  scale_y_continuous(breaks=seq(0, 150, 30))
+
+tg_p_2
+
+```
+*დიაგრამა 3. თვითმკვლელობისა და თვითმკვლელობის მცდელობის რაოდენობა*
+
+
+2018 წელს ინფორმაციის თავისუფლების განვითარების ინსტიტუტის (IDFI) მიერ ადმინისტრაციული მონაცემების ხელმისაწვდომობისა და მათი გამოყენების გაზრდის მიზნით ღია მონაცემთა ლაბორატორია - DataLab შეიქმნა. DataLab-ზე არსებული ცხრილების ნაწილის წყარო სხვადასხვა უწყებების ოფიციალურ ვებსაიტებზე არსებული მონაცემებია. IDFI პლატფორმაზე ინფორმაციას აქვეყნებს .xls .csv გაფართოებით (საჯარო .pdf გაფართოებით გამოქვეყნებული მონაცემები გარდაქმნის აღნიშნულ გაფართოებებში).
+
+ამჟამად DataLab-ზე ხელმისაწვდომია დანაშაულის სტატისტიკის 66 ცხრილი, მათ შორის ხელმისაწვდომი  მონაცემების ნაწილის გამოყენებით შესაძლებელია მოძალადის (ოჯახში ძალადობა) ასაკობრივი პროფილის შესწავლა 2008-დან 2018 წლამდე.
+
+
+```{r , tidy=FALSE, echo=FALSE, warning = FALSE, message = FALSE, fig.dim = c(13, 9)}
+
+
+tg_data_5 <- read_csv("~/Documents/github_project/data/violence_family.csv")
+
+age_names <- c(`1_<17` = "<17 წლის",
+               `2_17-24` = "17-24 წლის",
+               `3_25-44`= "25-44 წლის", 
+               `4_>44` = ">44 წლის", 
+               `უცნობია`= "უცნობია")
+
+tg_p_5 <- ggplot(data=tg_data_5, aes(x=year, y = number, color=age, fill = age)) +
+  geom_step (size=1.2) +
+  theme_gray(base_family="Sylfaen")+
+  theme(axis.title.x = element_text(colour="black", size=16, hjust=0.5),
+        axis.title.y = element_text(colour="black", size=16, hjust=0.5),
+        axis.text.x=element_text(angle = 30,  hjust=0.5, size=16, colour="black"), 
+        legend.position = "top",
+        axis.text.y=element_text(size=16),
+        plot.caption = element_text(size=16, colour="black", hjust=0),
+        plot.title=element_text(colour="black", size=20),
+        strip.text.y = element_text( size = 16, color = "black", face = "bold.italic"),
+        strip.background = element_rect(color="black", fill="#FC4E07", size=0.5, linetype="solid"),
+        legend.title=element_text(size=16), 
+        legend.text=element_text(size=16))+
+  labs(title = "",
+       subtitle ="",
+       caption = "წყარო: DataLab, საქსტატი",
+       color="")+
+  facet_grid(rows=vars(age), scales = "free", 
+             labeller = labeller(age=as_labeller(age_names)))+
+  xlab("წელი")+
+  ylab("აბსოლუტური რაოდენობა")+
+  scale_color_discrete(name = "ლეგენდა",
+                       labels = c("<17 წლის", "17-24 წლის", "25-44 წლის", ">44 წლის", "უცნობია"))+
+  scale_x_continuous(breaks=seq(2007, 2019, 1))
+
+tg_p_5
+
+```
+*დიაგრამა 4. ოჯახში ძალადობის ფაქტების ჩამდენთა (მოძალადეთა) რაოდენობა*
+
+
+საქმისწარმოების ელექტრონული სისტემების განვითარება პერმანენტულად მიმდინარეობს [(მონაცემთა ბაზები)](https://catalog.pdp.ge/SearchCatalogue). აღსანიშნავია, რომ ახალი კორონავირუსის (COVID-19) პანდემიის გავრცელებისა და დისტანციური მუშაობის აუცილებლობამ ელექტრონულ სისტემებზე მოთხოვნა გაზარდა და შესაბამისად მათი უფრო სწრაფად განვითარების საჭიროება დადგა. აღნიშნული პროცესი ხელს უწყობს ელექტრონულად ინფორმაციაზე ხელმისაწვდომობის ზრდას. ადმინისტრაციული მონაცემების წვდომასთან ერთად აქტუალური საკითხია მისი შენახვა, გამოქვეყნების ფორმა, რომელიც მონაცემების ანალიზისთვის, მანქანური დამუშავებისათვის მოსახერხებელი უნდა იყოს.
+
+
+ 
+
