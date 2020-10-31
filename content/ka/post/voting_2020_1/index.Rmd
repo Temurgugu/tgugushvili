@@ -75,7 +75,7 @@ tg_p_voting
 tg_data_4 <- read_excel("~/Documents/github_project/data/election_2020_ubani.xlsx")
 
 tg_p_4 <- ggplot(data=tg_data_4, aes(x=ubani , y=time, fill =percentage)) +
-  geom_tile(aes(text = paste("უბანი: ", name, "\n",
+  geom_tile(aes(text = paste("მაჟორიტარული ოლქი: ", name, "\n",
                              "აქტივობა(%):", percentage)))+ 
   theme_gray(base_family="Sylfaen")+
   scale_fill_viridis(discrete=FALSE)+
@@ -90,7 +90,7 @@ tg_p_4 <- ggplot(data=tg_data_4, aes(x=ubani , y=time, fill =percentage)) +
        subtitle ="",
        caption = "წყარო:ცეესკო",
        color="")+
-  xlab("უბანი")+
+  xlab("მაჟორიტარული ოლქი")+
   ylab("საათი")+
   
 # scale_fill_discrete(name = "",
@@ -104,7 +104,7 @@ tg_p_4 <- ggplot(data=tg_data_4, aes(x=ubani , y=time, fill =percentage)) +
   tg_p_5 
 
 ```
-*დიაგრამა 2. ამომრჩეველთა აქტივობა უბნების მიხედვით*
+*დიაგრამა 2. ამომრჩეველთა აქტივობა მაჟორიტარული ოლქების მიხედვით*
 
 
 2020 წლის საქართველოს პარლამენტის არჩევნების ამომრჩეველთა რაოდენობა - 1970540
