@@ -17,7 +17,7 @@ categories: საპარლამენტო არჩევნები
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-ცენტრალური საარჩევნო კომისიის 2020 წლის საქართველოს პარლამენტის არჩევნების [ამომრჩეველთა აქტივობა](https://cesko.ge/geo/static/2938) შესახებ აქვეყნებს ინფორმაციას. 
+ცენტრალური საარჩევნო კომისიის 2020 წლის საქართველოს პარლამენტის არჩევნების [ამომრჩეველთა აქტივობის](https://cesko.ge/geo/static/2938) შესახებ გამოქვეყნებული ინფორმაცია. 
 
 ```{r, include = FALSE}
 library(tidyr)
@@ -51,7 +51,7 @@ tg_p_voting <- ggplot(data=tg_data_1, aes(x=time , y=region, fill =percentage)) 
         legend.text=element_text(size=18))+
   labs(title = "",
        subtitle ="",
-       caption = "წყარო:ცენტრალური საარჩევნო კომისიის(ცესკო)",
+       caption = "წყარო:ცენტრალური საარჩევნო კომისიის (ცესკო)",
        color="")+
   xlab("")+
   ylab("რეგიონი")+
