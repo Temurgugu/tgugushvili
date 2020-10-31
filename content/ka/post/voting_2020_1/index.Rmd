@@ -11,7 +11,11 @@ tags:
 - არჩევნები
 - საპარლამენტო არჩევნები
 categories: საპარლამენტო არჩევნები
-og:image: smart_technologies/featured.jpg 
+image:
+  placement: 1
+  caption: "Photo by [Academic](https://sourcethemes.com/academic/)"
+  focal_point: ""
+  preview_only: true
 ---
 
 ```{r setup, include=FALSE, echo=FALSE}
@@ -56,17 +60,16 @@ tg_p_voting <- ggplot(data=tg_data_1, aes(x=time , y=region, fill =percentage)) 
        color="")+
   xlab("")+
   ylab("რეგიონი")+
-  labs(fill = "ამომრჩეველთა \nაქტიურობა %")+
+  labs(fill = "ამომრჩეველთა \nაქტივობა %")+
   scale_x_discrete()
+
 tg_p_voting
 
 ```
-*დიაგრამა 1. ამომრჩეველთა აქტიურობა რეგიონების მიხედვით*
-
-შემდეგი განახლება 20:30 საათზე. 
- 
+*დიაგრამა 1. ამომრჩეველთა აქტივობა რეგიონების მიხედვით*
 
 
+2020 წლის საქართველოს პარლამენტის არჩევნების ამომრჩეველთა რაოდენობა - 1970540
 
- 
+2020 წლის საქართველოს პარლამენტის არჩევნების ამომრჩეველთა აქტივობა 56.11 %
 
