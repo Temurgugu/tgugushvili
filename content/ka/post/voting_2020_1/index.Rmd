@@ -24,6 +24,10 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 ცენტრალური საარჩევნო კომისიის 2020 წლის საქართველოს პარლამენტის არჩევნების [ამომრჩეველთა აქტივობის](https://cesko.ge/geo/static/2938) შესახებ გამოქვეყნებული ინფორმაცია. 
 
+2020 წლის საქართველოს პარლამენტის არჩევნების ამომრჩეველთა რაოდენობა - 1970540
+
+2020 წლის საქართველოს პარლამენტის არჩევნების ამომრჩეველთა აქტივობა 56.11 %
+
 ```{r, include = FALSE}
 library(tidyr)
 library(tidyverse)
@@ -71,7 +75,7 @@ tg_p_voting
 
 
 
-```{r, fig.cap='', tidy=FALSE, echo=FALSE,  warning = FALSE, message = FALSE, fig.dim = c(8, 9)}
+```{r, tidy=FALSE, echo=FALSE,  warning = FALSE, message = FALSE, fig.dim = c(8, 9)}
 tg_data_4 <- read_excel("~/Documents/github_project/data/election_2020_ubani.xlsx")
 
 tg_p_4 <- ggplot(data=tg_data_4, aes(x=ubani , y=time, fill =percentage)) +
@@ -107,7 +111,4 @@ tg_p_4 <- ggplot(data=tg_data_4, aes(x=ubani , y=time, fill =percentage)) +
 *დიაგრამა 2. ამომრჩეველთა აქტივობა მაჟორიტარული ოლქების მიხედვით*
 
 
-2020 წლის საქართველოს პარლამენტის არჩევნების ამომრჩეველთა რაოდენობა - 1970540
-
-2020 წლის საქართველოს პარლამენტის არჩევნების ამომრჩეველთა აქტივობა 56.11 %
 
