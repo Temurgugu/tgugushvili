@@ -11,6 +11,7 @@ tags:
 - არჩევნები
 - საპარლამენტო არჩევნები
 categories: საპარლამენტო არჩევნები
+og:image: smart_technologies/featured.jpg 
 ---
 
 ```{r setup, include=FALSE, echo=FALSE}
