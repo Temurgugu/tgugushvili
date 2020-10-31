@@ -69,6 +69,44 @@ tg_p_voting
 *დიაგრამა 1. ამომრჩეველთა აქტივობა რეგიონების მიხედვით*
 
 
+
+
+```{r, fig.cap='', tidy=FALSE, echo=FALSE,  warning = FALSE, message = FALSE, fig.dim = c(8, 9)}
+tg_data_4 <- read_excel("~/Documents/github_project/data/election_2020_ubani.xlsx")
+
+tg_p_4 <- ggplot(data=tg_data_4, aes(x=ubani , y=time, fill =percentage)) +
+  geom_tile(aes(text = paste("დანაშაული: ", name, "\n",
+                             "დანაშაულის რაოდენობა:", percentage)))+ 
+  theme_gray(base_family="Sylfaen")+
+  scale_fill_viridis(discrete=FALSE)+
+  theme_ipsum(base_family="Sylfaen") +
+  theme(axis.title.x = element_text(colour="black", size=12, hjust=0.5),
+        axis.title.y = element_text(colour="black", size=12, hjust=0.5),
+        axis.text.x=element_text(angle = 90,  hjust=0.5, size=10, colour="black"), 
+        axis.text.y=element_text(size=10),
+        plot.caption = element_text(size=10, colour="black", hjust=0),
+        plot.title=element_text(colour="black", size=20))+
+  labs(title = "",
+       subtitle ="",
+       caption = "წყარო:ცეესკო",
+       color="")+
+  xlab("უბანი")+
+  ylab("საათი")+
+  
+# scale_fill_discrete(name = "",
+#                      labels = c("",""))
+# facet_grid(rows=vars(time), scales = "free")
+# coord_cartesian(xlim=c(10,12))+
+  scale_x_continuous(breaks=seq(1, 30, 1))
+
+  tg_p_5 <- ggplotly(tg_p_4, tooltip = "text") 
+  
+  tg_p_5 
+
+```
+*დიაგრამა 1. ამომრჩეველთა აქტივობა უბნების მიხედვით*
+
+
 2020 წლის საქართველოს პარლამენტის არჩევნების ამომრჩეველთა რაოდენობა - 1970540
 
 2020 წლის საქართველოს პარლამენტის არჩევნების ამომრჩეველთა აქტივობა 56.11 %
