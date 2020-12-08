@@ -27,7 +27,7 @@ publication: '*Developing and Implementing a Transdisciplinary Case Study Course
 publication_short: ""
 publication_types:
 - "6"
-publishDate: "2020-12-08T00:00:00Z"
+publishDate: "2020-12-07T00:00:00Z"
 slides: 
 summary: TThe aim of this manual is to enable interested teachers and university staff to implement a transdisciplinary (field) case study course, similar to those developed, tested, and integrated into the curriculum at Armenian State Pedagogical University (ASPU) and Tbilisi State University (TSU).
 tags:
