@@ -20,6 +20,13 @@ social:
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Temur_Gugushvili2
+- icon: semantic-scholar
+  icon_pack: ai
+  link: https://www.semanticscholar.org/author/Temur-Gugushvili/108048125
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0003-0650-9740
+
 
 superuser: true
 title: Temur Gugushvili
