@@ -2,12 +2,15 @@
 title: "Slides"
 categories: []
 date: '2019-02-05T00:00:00Z'
-slides:
-  highlight_style: dracula
-  theme: black
+output:
+  html_document:
+    df_print: paged
 summary: An introduction to using Academic's Slides feature.
 tags: []
 authors: []
+slides:
+  highlight_style: dracula
+  theme: black
 ---
 
 # Create slides in Markdown with Academic

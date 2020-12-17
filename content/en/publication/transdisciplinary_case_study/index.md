@@ -41,5 +41,11 @@ url_project: "http://caucasust.boku.ac.at/ka/home-2/"
 url_slides: ""
 url_source: "https://www.researchgate.net/publication/346685495_Developing_and_Implementing_a_Transdisciplinary_Case_Study_Course_Manual_for_Lecturers?fbclid=IwAR0ygNw0zbL7LyB_OM-YK-Bsg7FJBRIyRPxdfkzrb6DBzZ7fKLXqoPrtZxM"
 url_video: ""
+url_materials: "https://drive.google.com/drive/folders/1XHWA7ovWRdyuZ1Lgl5WUHtVGWWu6pxNP?usp=sharing"
+links:
+  - icon_pack: fab
+    icon: fab fa-google-drive 
+    name: Resource
+    url: 'https://drive.google.com/drive/u/2/folders/1xHVjszvLv8fp2ErEJJm59jHYDQXIkN3u'
 
 ---
