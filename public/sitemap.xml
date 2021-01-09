@@ -1,382 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+	<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+		<url>
+			<loc>https://temurgugushvili.ge/</loc>
+			<changefreq>weekly</changefreq>
+		</url>
 
+		<url>
+			<loc>https://temurgugushvili.ge/#</loc>
+			<changefreq>weekly</changefreq>
+		</url>
 
-<url>
-  <loc>https://temurgugushvili.ge/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/project/livelihood_pa/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/project/linkages_tourism/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/publication/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/author/temur-gugushvili/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/publication/transdisciplinary_case_study/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/publication/spatial_peculiarities_ltsc/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/slides/example/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/publication/journal-article/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/publication/blog_tourism_linkage/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/publication/blog_maxqda_gori/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/publication/journal-article_1/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/publication/divorceyoungage/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/project/internal-project/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/post/administrative_data/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/category/%E1%83%90%E1%83%93%E1%83%9B%E1%83%98%E1%83%9C%E1%83%98%E1%83%A1%E1%83%A2%E1%83%A0%E1%83%90%E1%83%AA%E1%83%98%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%9B%E1%83%9D%E1%83%9C%E1%83%90%E1%83%AA%E1%83%94%E1%83%9B%E1%83%94%E1%83%91%E1%83%98/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/post/voting_2020_1/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/category/%E1%83%A1%E1%83%90%E1%83%9E%E1%83%90%E1%83%A0%E1%83%9A%E1%83%90%E1%83%9B%E1%83%94%E1%83%9C%E1%83%A2%E1%83%9D-%E1%83%90%E1%83%A0%E1%83%A9%E1%83%94%E1%83%95%E1%83%9C%E1%83%94%E1%83%91%E1%83%98/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/post/smart_technologies/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/author/%E1%83%97%E1%83%94%E1%83%9B%E1%83%A3%E1%83%A0-%E1%83%92%E1%83%A3%E1%83%92%E1%83%A3%E1%83%A8%E1%83%95%E1%83%98%E1%83%9A%E1%83%98/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/category/%E1%83%98%E1%83%9C%E1%83%A4%E1%83%9D%E1%83%A0%E1%83%9B%E1%83%90%E1%83%AA%E1%83%98%E1%83%98%E1%83%A1-%E1%83%9B%E1%83%90%E1%83%A0%E1%83%97%E1%83%95%E1%83%90/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/publication/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/publication/maxqda_gori/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/publication/divorceyoungage/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/slides/example/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/tourism/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/mountain/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/rural/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/livelihood/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/completed/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/protected-area/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/author/temur-gugushvili/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/source-themes/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/local-tourism-supply-chain/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/regional-development/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/qualitative-research/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/community-based-participatory-approach/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/mountain-tourism-development/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/development/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/kazbegi/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/interdisciplinary/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/mounation/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/maxqda/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/urban/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/gori/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/fragmented-development/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/economic-potential/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/divorce-at-a-young-age/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/biographic-narrative-interview/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/divorce/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/tag/georgia/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/tourism/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/mountain/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/rural/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/livelihood/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/completed/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/talk/example/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/%E1%83%A1%E1%83%A2%E1%83%90%E1%83%A2%E1%83%98%E1%83%A1%E1%83%A2%E1%83%98%E1%83%99%E1%83%90/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/%E1%83%90%E1%83%93%E1%83%9B%E1%83%98%E1%83%9C%E1%83%98%E1%83%A1%E1%83%A2%E1%83%A0%E1%83%90%E1%83%AA%E1%83%98%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%9B%E1%83%9D%E1%83%9C%E1%83%90%E1%83%AA%E1%83%94%E1%83%9B%E1%83%94%E1%83%91%E1%83%98/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/%E1%83%93%E1%83%90%E1%83%9C%E1%83%90%E1%83%A8%E1%83%90%E1%83%A3%E1%83%9A%E1%83%98/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/%E1%83%90%E1%83%A0%E1%83%A9%E1%83%94%E1%83%95%E1%83%9C%E1%83%94%E1%83%91%E1%83%98/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/%E1%83%A1%E1%83%90%E1%83%9E%E1%83%90%E1%83%A0%E1%83%9A%E1%83%90%E1%83%9B%E1%83%94%E1%83%9C%E1%83%A2%E1%83%9D-%E1%83%90%E1%83%A0%E1%83%A9%E1%83%94%E1%83%95%E1%83%9C%E1%83%94%E1%83%91%E1%83%98/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/%E1%83%98%E1%83%9C%E1%83%A4%E1%83%9D%E1%83%A0%E1%83%9B%E1%83%90%E1%83%AA%E1%83%98%E1%83%98%E1%83%A1-%E1%83%9B%E1%83%90%E1%83%A0%E1%83%97%E1%83%95%E1%83%90/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/maxqda/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/%E1%83%A5%E1%83%90%E1%83%9A%E1%83%90%E1%83%A5%E1%83%98/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/%E1%83%92%E1%83%90%E1%83%9C%E1%83%95%E1%83%98%E1%83%97%E1%83%90%E1%83%A0%E1%83%94%E1%83%91%E1%83%90/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/%E1%83%92%E1%83%9D%E1%83%A0%E1%83%98/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/%E1%83%92%E1%83%90%E1%83%9C%E1%83%A5%E1%83%9D%E1%83%A0%E1%83%AC%E1%83%98%E1%83%9C%E1%83%94%E1%83%91%E1%83%90-%E1%83%90%E1%83%AE%E1%83%90%E1%83%9A%E1%83%92%E1%83%90%E1%83%96%E1%83%A0%E1%83%93%E1%83%94%E1%83%91%E1%83%A8%E1%83%98/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/%E1%83%91%E1%83%98%E1%83%9D%E1%83%92%E1%83%A0%E1%83%90%E1%83%A4%E1%83%98%E1%83%A3%E1%83%9A-%E1%83%9C%E1%83%90%E1%83%A0%E1%83%90%E1%83%A2%E1%83%98%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%98%E1%83%9C%E1%83%A2%E1%83%94%E1%83%A0%E1%83%95%E1%83%98%E1%83%A3/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/%E1%83%92%E1%83%90%E1%83%9C%E1%83%A5%E1%83%9D%E1%83%A0%E1%83%AC%E1%83%98%E1%83%9C%E1%83%94%E1%83%91%E1%83%90/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/tag/%E1%83%A1%E1%83%90%E1%83%A5%E1%83%90%E1%83%A0%E1%83%97%E1%83%95%E1%83%94%E1%83%9A%E1%83%9D/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/ka/slides/test/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://temurgugushvili.ge/talk/example/</loc>
-  <lastmod>2021-01-09T15:08:28+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
+		<url>
+			<loc>https://temurgugushvili.ge/#about</loc>
+			<changefreq>weekly</changefreq>
+		</url>
 
+		<url>
+			<loc>https://temurgugushvili.ge/#projects</loc>
+			<changefreq>weekly</changefreq>
+		</url>
 
-</urlset>
+		<url>
+			<loc>https://temurgugushvili.ge/#posts</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/#publications</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/#contact</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/ka/</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/project/livelihood_pa/</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/project/linkages_tourism/</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/publication/</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/author/temur-gugushvili/</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/publication/transdisciplinary_case_study/</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/publication/spatial_peculiarities_ltsc/</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/slides/example/</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/publication/journal-article/</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/publication/blog_tourism_linkage/</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/publication/blog_maxqda_gori/</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/publication/journal-article_1/</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/publication/divorceyoungage/</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://temurgugushvili.ge/{{relpermalink}}</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+	</urlset>
+
