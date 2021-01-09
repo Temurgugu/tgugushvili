@@ -1,109 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-	<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-		<url>
-			<loc>https://temurgugushvili.ge/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/#</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/#about</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/#projects</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/#posts</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/#publications</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/#contact</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/ka/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/project/livelihood_pa/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/project/linkages_tourism/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/publication/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/author/temur-gugushvili/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/publication/transdisciplinary_case_study/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/publication/spatial_peculiarities_ltsc/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/slides/example/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/publication/journal-article/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/publication/blog_tourism_linkage/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/publication/blog_maxqda_gori/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/publication/journal-article_1/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/publication/divorceyoungage/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://temurgugushvili.ge/{{relpermalink}}</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-	</urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>/en/sitemap.xml</loc>
+		
+	   	<lastmod>2020-06-01T13:00:00+00:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>/ka/sitemap.xml</loc>
+		
+	   	<lastmod>2020-06-01T13:00:00+00:00</lastmod>
+		
+	</sitemap>
+	
+</sitemapindex>
 
