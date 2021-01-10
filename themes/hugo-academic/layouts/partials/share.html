@@ -1,20 +1,56 @@
 {{ if and site.Params.sharing (ne .Params.share false) }}
 <div class="share-box" aria-hidden="true">
+	<center>
+		<h4 style="color: #555;">
+			{{ if eq .Site.Language.Lang "ka" }}
+			გააზიარე
+			{{ else if eq .Site.Language.Lang "en" }}
+			Share it
+			{{ end }}
+		</h4>
+	</center>	
+	
   <ul class="share">
+	  <script src="https://apis.google.com/js/platform.js" async defer></script>
+	  <li data-toggle="tooltip" data-placement="bottom" title="Classroom"><g:sharetoclassroom url="{{ $.Permalink }}" size="30" theme="dark"></g:sharetoclassroom></li>
     {{ range where site.Data.page_sharer.buttons "enable" true }}
       {{ $pack := or .icon_pack "fas" }}
       {{ $pack_prefix := $pack }}
       {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-        {{ $pack_prefix = "fa" }}
+      {{ $pack_prefix = "fa" }}
       {{ end }}
       {{ $link := replace .url "{url}" ($.Permalink | htmlEscape) }}
       {{ $link = replace $link "{title}" ($.Title | htmlEscape) }}
-      <li>
-        <a href="{{$link|safeURL}}" target="_blank" rel="noopener" class="share-btn-{{.id}}">
-          <i class="{{$pack}} {{$pack_prefix}}-{{.icon}}"></i>
-        </a>
-      </li>
-    {{ end }}
-  </ul>
+   <li><a href="{{$link|safeURL}}" data-toggle="tooltip" data-placement="bottom" title aria-label="{{.title}}" data-original-title="{{.title}}" target="_blank" rel="noopener" class="share-btn-{{.id}}"><i class="{{$pack}} {{$pack_prefix}}-{{.icon}}"></i></a></li>
+
+{{ end }}
+
+</ul>  	  
 </div>
+<div class="share-box" aria-hidden="true">
+	<center>
+		<h4 style="color: #555;">
+			{{ if eq .Site.Language.Lang "ka" }}
+			მიიღე სიახლეები
+			{{ else if eq .Site.Language.Lang "en" }}
+			Subscribe
+			{{ end }}
+		</h4>
+	</center>
+	<ul class=share>
+		{{ if eq .Site.Language.Lang "ka" }}
+		<li>
+	  <a href="https://t.me/fisiquimicamente" target="_blank" rel="noopener"></a>
+		</li>
+		{{ end }}
+<li><a href="{{ "/index.xml" | absLangURL }}" target="_blank" rel="noopener">
+<i class="fas fa-rss" data-toggle="tooltip" data-placement="right" title aria-label="RSS" data-original-title="RSS"></i></a></li>
+
+</ul>
+<p class="kudos">
+	  {{ if eq .Site.Language.Lang "ka" }}
+		<center>If you don't want to miss any <strong>updates</strong> consider subscribing to the RSS channel <i class="fas fa-rss"></i><center>.
+	  {{ else if eq .Site.Language.Lang "en" }}
+		<center>If you don't want to miss any <strong>updates</strong> consider subscribing to the RSS channel <i class="fas fa-rss"></i><center>.
+{{ end }}
 {{ end }}
