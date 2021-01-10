@@ -10,15 +10,17 @@ title = "Temur Gugushvili"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://temurgugushvili.ge/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
 copyright = """<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">                              
 <img style="display:block;margin: 0 auto"class="display-centered" alt="Creative Commons License"    
 src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" 
-property="dct:title"> This work is licensed under a <a rel="license" 
-href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />"""       
+property="dct:title"> <p>&copy;Temur Gugushvili 2020 -  {year}</p> 
+<p>This work is licensed under a <a rel="license" 
+href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />""" 
+
 
 
 ############################
@@ -40,6 +42,7 @@ removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issu
 summaryLength = 30  # Listing summary length in words. Also, see `abstract_length` in `params.toml`.
 paginate = 10  # Number of items per page in paginated lists.
 enableEmoji = true
+enableRobotsTXT = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 
@@ -51,9 +54,11 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   publication_types = "/publication-type/:slug/"
 
 [outputs]
-  home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
+  home = [ "HTML", "CSS", "RSS" ]
   section = [ "HTML", "RSS" ]
-
+  taxonomy = [ "HTML", "RSS" ]
+  taxonomyTerm = [ "HTML", "RSS" ]
+  
 [mediaTypes."application/manifest+json"]
   suffixes = ["webmanifest"]
 
