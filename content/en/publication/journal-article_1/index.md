@@ -26,7 +26,7 @@ publication_short: ""
 publication_types:
 - "2"
 publishDate: "2017-03-15T00:00:00Z"
-slides: example
+slides: 
 summary: we argue that the observed rapid growth of tourist sector in the areas under investigation triggers economic growth, however the development is still fragmented and incomplete, as other branches of economy like agriculture, trade, etc., that should be connected to tourism activities, do not enjoy the expected growth.
 tags:
 - Fragmented development

@@ -25,7 +25,7 @@ publication_short: ""
 publication_types:
 - "2"
 publishDate: "2019-08-15T00:00:00Z"
-slides: example
+slides: 
 summary: The Greater Caucasus (Georgia) experiences new forms of hospitality, which ensures the development of authentic and sustainable services in tourism.
 tags:
 - Source Themes
