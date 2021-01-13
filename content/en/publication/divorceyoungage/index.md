@@ -22,7 +22,7 @@ publication_short: ""
 publication_types:
 - "2"
 publishDate: "2015-07-01T00:00:00Z"
-slides: example
+slides: 
 summary: The qualitative research analyzed hypothetical factors leading to youth divorce (18-24) including the couple’s socio-economic status before and after marriage, primary and family environment, readiness for living together, education and career. 
 
 tags:
