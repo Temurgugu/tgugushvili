@@ -26,7 +26,7 @@ publication_short: ""
 publication_types:
 - "2"
 publishDate: "2020-02-13T00:00:00Z"
-slides: example
+slides: 
 summary: The presented article identifies the main actors in the local tourism supply chain and examines its functioning in the spatial context of Mestia Municipality.
 
 tags:
