@@ -188,10 +188,12 @@ tg_p_2
 ამჟამად DataLab-ზე ხელმისაწვდომია დანაშაულის სტატისტიკის 66 ცხრილი, მათ შორის ხელმისაწვდომი  მონაცემების ნაწილის გამოყენებით შესაძლებელია მოძალადის (ოჯახში ძალადობა) ასაკობრივი პროფილის შესწავლა 2008-დან 2018 წლამდე.
 
 
-```{r , tidy=FALSE, echo=FALSE, warning = FALSE, message = FALSE, fig.dim = c(13, 9)}
+```{r , tidy=FALSE, echo=FALSE, warning = FALSE, message = FALSE, fig.dim = c(12, 9)}
 
 
 tg_data_5 <- read_csv("~/Documents/github_project/data/violence_family.csv")
+
+tg_data_5 <- dplyr::filter(tg_data_5, age != "უცნობია")
 
 age_names <- c(`1_<16` = "<16 წლის",
                `2_17-24` = "17-24 წლის",
@@ -200,8 +202,7 @@ age_names <- c(`1_<16` = "<16 წლის",
                `უცნობია`= "უცნობია")
 
 tg_p_5 <- ggplot(data=tg_data_5, aes(x=year, y = number, color=gender, fill = gender)) +
-  geom_line (size=1.2, linetype = 3) +
-  geom_step(size=1.2)+
+  geom_line (size=1.2) +
   theme_gray(base_family="Sylfaen")+
   theme(axis.title.x = element_text(colour="black", size=16, hjust=0.5),
         axis.title.y = element_text(colour="black", size=16, hjust=0.5),
@@ -220,7 +221,7 @@ tg_p_5 <- ggplot(data=tg_data_5, aes(x=year, y = number, color=gender, fill = ge
        color="")+
   facet_grid(rows=vars(age), scales = "free", 
              labeller = labeller(age=as_labeller(age_names)))+
-  xlab("წელი 2020 (იანვარი-სექტემბერი)")+
+  xlab("წელი 2020 (იანვარი-ნოემბერი)")+
   ylab("აბსოლუტური რაოდენობა")+
   scale_color_discrete(name = "ლეგენდა",
                        labels = c("მამრობითი", "მდედრობითი", "სრული რაოდენობა"))+
@@ -233,7 +234,3 @@ tg_p_5
 
 
 საქმისწარმოების ელექტრონული სისტემების განვითარება პერმანენტულად მიმდინარეობს [(მონაცემთა ბაზები)](https://catalog.pdp.ge/SearchCatalogue). აღსანიშნავია, რომ ახალი კორონავირუსის (COVID-19) პანდემიის გავრცელებისა და დისტანციური მუშაობის აუცილებლობამ ელექტრონულ სისტემებზე მოთხოვნა გაზარდა და შესაბამისად მათი უფრო სწრაფად განვითარების საჭიროება დადგა. აღნიშნული პროცესი ხელს უწყობს ელექტრონულად ინფორმაციაზე ხელმისაწვდომობის ზრდას. ადმინისტრაციული მონაცემების წვდომასთან ერთად აქტუალური საკითხია მისი შენახვა, გამოქვეყნების ფორმა, რომელიც მონაცემების ანალიზისთვის, მანქანური დამუშავებისათვის მოსახერხებელი უნდა იყოს.
-
-
- 
-
