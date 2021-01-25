@@ -34,10 +34,11 @@ user_groups:
 - Visitors
 ---
 
-Currently, I am working at the [National Agency for Crime Prevention and Probation](https://www.facebook.com/CenterforCrimePrevention) as head of Research and Service Department. At the same time, I am a PhD Candidate at Tbilisi State University, Department of Sociology. My academic career already includes several impactful research projects focusing on people's livelihoods in rural and mountain settlements. 
 
-As doing research in both public and academic sector, I see the advantages as well as disadvantages of both qualitative and quantitative research methods. That is why, in some cases, the only solution to capture the whole perspective is to craft a mixed-methods research design. 
+ჩემი ამჟამინდელი სამუშაო პოზიცია წარმოადგენს  [დანაშაულის პრევენციისა და პრობაციის ეროვნულ სააგენტოში](https://www.facebook.com/CenterforCrimePrevention), კვლევისა და მომსახურების დეპარტამენტის უფროსის თანამდებობას. ამავე დროს, როგორც დოქტორობის კანდიდატი აფილირებული ვარ თბილისის სახელმწიფო უნივერსიტეტის სოციოლოგიის დეპარტამენტში. ჩემი აკადემიური კარიერა მოიცავს ისეთ მნიშვნელოვან სამეცნიერო კვლევით პროექტებს, რომლებსაც გარდამტეხი ცვლილებების გამოწვევა შეუძლია მთიან და სასოფლო დასახლებებში მცხოვრები ადამიანების საარსებო წყაროების დივერსიფიკაციაზე დაყრდნობით მათი ეკონომიკური დოვლათის გაუმჯობესებაში. 
 
-After accumulating research experiences in interdisciplinary, transdisciplinary, participatory, action and transformative studies, I am in favor of these approaches which prevent staying the research results on the dusty shells or databases.
+ორ ფართო სექტორში, კერძოდ, აკადემიასა და საჯარო სამსახურში, ჩართულობით მიღებულმა გამოცდილებამ მაჩვენა, როგორც თვისებრივი, ისე რაოდენობრივი კვლევის მეთოდების გამოყენების უპირატესობებსა და ნაკლოვანებებს. სწორედ ამიტომ, რიგ შემთხვევებში სრული პერსპექტივის ჩამოყალიბებისათვის, გამოსავალს შერეული მეთოდების გამოყენებაზე დაფუძნებული დიზაინის შემუშავებაში ვპოულობ. 
 
-I believe that the researcher's primary role is to explore hitherto hidden and spread it in an understandable way to the relevant stakeholders. For this reason, I synthesise in practice social science theories, methods and information handling tools, such as R/Rstudio, QGIS, SPSS, Excel, Access, MAXQDA, Mendeley, etc.
+ინტერ/მულტი/ტრანსდისციპლინარულ, მონაწილეობით, სამოქმედო და ტრანსფორმაციულ კვლევებში დაგროვილი გამოცდილებიდან გამომდინარე, სხვადასხვა სოციალური ფენომენის შესწავლის პროცესში, მხარს ვუჭერ ისეთი მიდგომების ინტეგრირებას, რომლებიც უზრუნველყოფს კვლევის შედეგების 'მტვრიან თაროზე' ან მხოლოდ მონაცემთა ბაზებში დარჩენის პრევენციას. 
+
+ჩემი რწმენითა და წარმოდგენით, მკვლევრის ძირითად როლს აქამდე 'დაფარულის' გამოაშკარავება და აღნიშნულის დაინტერესებული მხარეებისათვის გასაგები მიდგომებით მიწოდება წარმოადგენს. აღნიშნულის გათვალისწინებით, საქმიანობის პროცესში, პრაქტიკაში ვახდენ სოციალურ მეცნიერებათა თეორიების, მეთოდებისა და მონაცემების მართვის ინსტრუმენტების (მაგ. R/Rstudio, QGIS, SPSS, Excel, Access, MAXQDA, Mendeley) სინთეზს.
