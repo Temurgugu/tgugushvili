@@ -35,7 +35,7 @@ user_groups:
 - Visitors
 ---
 
-Currently, I am working at the [National Agency for Crime Prevention and Probation](https://www.facebook.com/CenterforCrimePrevention) as head of Research and Service Department. At the same time, I am a PhD Candidate at Tbilisi State University, Department of Sociology. My academic career already includes several impactful research projects focusing on people's livelihoods in rural and mountain settlements. 
+Currently, I am working at the [National Agency for Crime Prevention and Probation](https://www.facebook.com/CenterforCrimePrevention) as head of Research and Service Department. At the same time, I am a PhD Candidate at Tbilisi State University, Department of Sociology. My academic career already includes several impactful research [projects](https://temurgugushvili.ge/project/) focusing on people's livelihoods in rural and mountain settlements. 
 
 As doing research in both public and academic sector, I see the advantages as well as disadvantages of both qualitative and quantitative research methods. That is why, in some cases, the only solution to capture the whole perspective is to craft a mixed-methods research design. 
 
