@@ -14,7 +14,7 @@ header:
   image: ""
 ---
 
-:bar_chart: [დანაშაულის პრევენციისა და პრობაციის ეროვნულ სააგენტო](https://www.facebook.com/CenterforCrimePrevention) ყოველთვიურად აქვეყნებს [სისხლის სამართლის სტატისტიკის ერთიან ანგარიშს](https://www.geostat.ge/ka/modules/categories/679/siskhlis-samartlis-statistikis-ertiani-angarishi) (თავი IV. ნაწილი 12). საქსტატის ვებსაიტზე. მონაცემები ხელმისაწვდომია დეტალურად დანართში - ცხრილი #56 - #78. 
+:bar_chart: [დანაშაულის პრევენციისა და პრობაციის ეროვნულ სააგენტო](https://www.facebook.com/CenterforCrimePrevention) ყოველთვიურად აქვეყნებს [სისხლის სამართლის სტატისტიკის ერთიან ანგარიშს](https://www.geostat.ge/ka/modules/categories/679/siskhlis-samartlis-statistikis-ertiani-angarishi) (თავი IV, ნაწილი 12). საქსტატის ვებსაიტზე. მონაცემები ხელმისაწვდომია დეტალურად დანართში - ცხრილი #56 - #78. 
 
 
 :bar_chart: განრიდებისა და მედიაციის დეპარტამენტის [სტატისტიკა](http://diversion.ge/?action=page&pid=52&lang=geo) ხელმისაწვდომია www.diversion.ge-ზე. 
