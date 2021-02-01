@@ -45,7 +45,7 @@ url_pdf: https://www.researchgate.net/publication/348944428_Participatory_policy
 url_poster: ""
 url_project: ""
 url_slides: ""
-url_source: ""
+url_source: "http://journals.org.ge/index.php/aans/issue/view/19/23"
 url_video: ""
 
 projects: 
