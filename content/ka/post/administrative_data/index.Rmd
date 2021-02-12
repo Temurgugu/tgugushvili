@@ -116,18 +116,6 @@ tg_p_3 <- ggplot(data=tg_data_3, aes(year, number_type, color = crime_type))+
   coord_cartesian(ylim=c(0,30000),
                   xlim=c(2015, 2020))+
   scale_y_continuous(breaks=seq(0, 30000, 5000))+
-  #scale_color_discrete(name = "",
-  #                    labels = c("სიცოცხლის წინააღმდეგ",
-  #                               "ჯანმრთელობის წინააღმდეგ",
-  #                               "ადამიანის უფლებების წინააღმდეგ",
-  #                               "ოჯახისა და არასრულწლოვნის წინააღმდეგ",
-  #                               "საკუთრების წინააღმდეგ",
-  #                               "საზოგადოებრივი უშიშროების წინააღმდეგ",
-  #                               "ნარკოტიკული",
-  #                               "სატრანსპორტო",
-  #                               "სამოხელეო", 
-  #                               "მმართველობის წესის წინააღმდეგ", 
-  #                               "სხვა დანაშაული"))+
   scale_x_continuous(breaks=seq(2015, 2020, 1))
   
 tg_p_4 <- ggplotly(tg_p_3, tooltip = "text") 
