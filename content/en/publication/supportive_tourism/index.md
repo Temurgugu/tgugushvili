@@ -29,7 +29,7 @@ publication: '*Annals of Agrarian Science*'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2021-08-15T00:00:00Z"
+publishDate: "2021-01-01T00:00:00Z"
 slides: 
 summary: Based on the research, acknowledging the increasing dependency on such a sensitive economic branch as tourism, we suggest the new tourism advancement concept under the title of “supportive tourism”.
 tags:
