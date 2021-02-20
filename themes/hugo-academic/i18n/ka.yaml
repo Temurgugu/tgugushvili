@@ -15,7 +15,7 @@
 # General
 
 - id: related
-  translation: Related
+  translation: დაკავშირებული
 
 - id: minute_read
   translation: min read
@@ -73,7 +73,7 @@
   translation: პოსტერი
 
 - id: btn_source
-  translation: Source Document
+  translation: ძირითადი დოკუმენტი
 
 - id: btn_copy
   translation: Copy
@@ -182,7 +182,9 @@
 
 - id: pub_patent
   translation: პატენტი
-
+  
+- id: pub_blog_article
+  translation: ბლოგი-სტატია
 
 # Project details
 
@@ -206,6 +208,7 @@
 - id: slides
   translation: პრეზენტაციები
 
+
 # Search
 
 - id: search
@@ -218,7 +221,7 @@
   translation: results found
 
 - id: search_no_results
-  translation: No results found
+  translation: შედეგი არ მოიძებნა
 
 # Error 404
 

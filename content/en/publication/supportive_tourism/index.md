@@ -13,12 +13,12 @@ authors:
 - Joseph Khelashvilic
 - Joseph Salukvadze
 - Lela Khartishvili
-date: "2021-01-01T00:00:00Z"
+date: "2020-01-01T00:00:00Z"
 doi: ""
 featured: false
 image: 
 image:
-  placement: 1
+  placement: 9
   caption: "Photo - Guesthouse' advertisement by [Temur Gugushvili]()"
   focal_point: "Center"
   preview_only: false
@@ -29,7 +29,7 @@ publication: '*Annals of Agrarian Science*'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2020-08-15T00:00:00Z"
+publishDate: "2021-08-15T00:00:00Z"
 slides: 
 summary: Based on the research, acknowledging the increasing dependency on such a sensitive economic branch as tourism, we suggest the new tourism advancement concept under the title of “supportive tourism”.
 tags:
@@ -41,7 +41,7 @@ tags:
 title: Participatory policy review - "Supportive Tourism" concept for hand-in-hand rural and mountain development
 url_code: ""
 url_dataset: ""
-url_pdf: "19-24-PB-35-47"
+url_pdf: "pdf/supportive.pdf"
 url_poster: ""
 url_project: ""
 url_slides: ""
