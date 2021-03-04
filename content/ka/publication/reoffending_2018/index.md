@@ -46,7 +46,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'დევნილთა დასახლებები, ქალაქი გორი, **თემურ გუგუშვილი**'
+  caption: 'ყოფილ მსჯავრდებულთა მიერ დანაშაულის ჩადენის ხელშემწყობი ფაქტორების კვლევა'
   focal_point: ""
   preview_only: false
 
