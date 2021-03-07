@@ -26,6 +26,9 @@ social:
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0003-0650-9740
+- icon: figshare
+  icon_pack: ai
+  link: https://figshare.com/authors/Temur_Gugushvili/9866468
 
 
 superuser: true
