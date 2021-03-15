@@ -185,7 +185,8 @@
   
 - id: pub_blog_article
   translation: ბლოგი-სტატია
-
+- id: pub_translation  
+  translation: თარგმანი
 # Project details
 
 - id: open_project_site
