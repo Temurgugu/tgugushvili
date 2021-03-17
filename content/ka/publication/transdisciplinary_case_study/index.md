@@ -28,7 +28,7 @@ publication_types:
 - "10"
 publishDate: "2020-12-07T00:00:00Z"
 slides: 
-summary: The aim of this manual is to enable interested teachers and university staff to implement a transdisciplinary (field) case study course, similar to those developed, tested, and integrated into the curriculum at Armenian State Pedagogical University (ASPU) and Tbilisi State University (TSU).
+summary: ამ სახელმძღვანელოს მიზანია უნივერსიტეტების დაინტერესებულ ლექტორებსა და აკადემიურ პერსონალს მისცეს შესაძლებლობა, განახორციელოს შემთხვევის შესწავლის ტრანსდისციპლინური საველე კურსი, რომელიც უკვე შემუშავებულია, აპრობირებულია და ინტეგრირებულია სსპუ და თსუ კურუკულუმებში. სახელმძღვანელოს პირველ თავში მოკლედ არის განხილული ფუნდამენტური კონცეფციები, რომლებიც აუცილებელია ტრანსდისციპლინური მიდგომების საფუძვლიანად გაგებისათვის.
 tags:
 - Source Themes
 title: შემთხვევის შესწავლის ტრანსდისციპლინური საველე კურსის შემუშავება და განხორციელება | სახელმძღვანელო უნივერსიტეტის ლექტორებისთვის

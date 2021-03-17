@@ -27,9 +27,9 @@
   weight = 40
   
 [[main]]
-  name = "nacpp-ს სტატისტიკა"  # A link title for your page.
-  url = "nacpp/"  # The URL of your page.
-  weight = 50  # The position of your page in the menu.  
+  name = "ღია მონაცემები"
+  url = "#opendata"
+  weight = 50
 
 [[main]]
   name = "დამიკავშირდი"

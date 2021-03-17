@@ -26,6 +26,11 @@
   weight = 40
 
 [[main]]
+  name = "OpenData"
+  url = "#opendata"
+  weight = 50
+
+[[main]]
   name = "Contact"
   url = "#contact"
   weight = 100  
