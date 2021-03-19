@@ -1,15 +1,16 @@
 ---
-title: "დანაშაულის პრევენციისა და პრობაციის ეროვნულ სააგენტოს ადმინისტრაციული მონაცემები"
+title: "Administrative Data of National Agency for Crime Prevention and Probation"
 date: '2021-03-10T15:13:14-05:00'
 output:
   html_document:
     df_print: paged
   pdf_document: default
 tags:
-- ადმინისტრაციული მონაცემები
-- სტატისტიკა
-- პრობაცია
-categories: ღია მონაცემები
+- administrative data
+- data
+- probation
+- statistics
+categories: Open data
 image:
   placement: 1
   caption: "Photo by [Academic](https://sourcethemes.com/academic/)"
@@ -21,13 +22,11 @@ image:
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-
-:bar_chart: [დანაშაულის პრევენციისა და პრობაციის ეროვნულ სააგენტო](https://www.facebook.com/CenterforCrimePrevention) ყოველთვიურად აქვეყნებს [სისხლის სამართლის სტატისტიკის ერთიან ანგარიშს](https://www.geostat.ge/ka/modules/categories/679/siskhlis-samartlis-statistikis-ertiani-angarishi) (თავი IV, ნაწილი 12) საქსტატის ვებსაიტზე. მონაცემები ხელმისაწვდომია დეტალურად დანართში - ცხრილი #56 - #78.
+:bar_chart: [National Agency for Crime Prevention and Probation](https://www.facebook.com/CenterforCrimePrevention) publishes [criminal justice data monthly report](https://www.geostat.ge/en/modules/categories/679/unified-report-on-criminal-justice-statistics) (Chapter IV, Section 12) on Geostat's website. The data is available in Appendix - Table # 56 - # 78.
 
 :bar_chart: SPACE II პროექტის ფარგლებში ევროპის საბჭოს 47 წევრ ქვეყანასთან ერთად საქართველოს პრობაციასთან დაკავშირებული [მონაცემები](https://wp.unil.ch/space/space-ii/annual-reports/) ქვეყნდება ყოველწლიურად.   
 
-:bar_chart: განრიდებისა და მედიაციის დეპარტამენტის [სტატისტიკა](http://diversion.ge/?action=page&pid=52&lang=geo) ხელმისაწვდომია www.diversion.ge-ზე. 
-
+:bar_chart: [Statistics](http://diversion.ge/?action=page&pid=52&lang=geo) of the Diversion and Mediation Department is available at [www.diversion.ge](http://www.diversion.ge/?action=page&pid=51&lang=eng). 
 
 :bar_chart: [ბლოგი](https://temurgugushvili.ge/ka/category/%E1%83%90%E1%83%93%E1%83%9B%E1%83%98%E1%83%9C%E1%83%98%E1%83%A1%E1%83%A2%E1%83%A0%E1%83%90%E1%83%AA%E1%83%98%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%9B%E1%83%9D%E1%83%9C%E1%83%90%E1%83%AA%E1%83%94%E1%83%9B%E1%83%94%E1%83%91%E1%83%98/) საჯარო უწყებების მიერ გამოქვეყნებული დანაშაულთან დაკავშირებული ადმინისტრაციული მონაცემების შესახებ. 
 
