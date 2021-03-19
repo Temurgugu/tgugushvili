@@ -12,7 +12,7 @@ authors:
 - Stefan Rädiker
 
 date: "2021-03-16T00:00:00Z"
-doi: ""
+doi: "https://doi.org/10.36192/978-3-948768058"
 featured: false
 image: 
 image:
