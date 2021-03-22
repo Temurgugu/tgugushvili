@@ -16,7 +16,7 @@ social:
   link: https://scholar.google.com/citations?user=XIuUIMwAAAAJ&hl=en&authuser=2
 - icon: cv
   icon_pack: ai
-  link: https://europa.eu/!jN63xK    
+  link: https://europa.eu/!TB37vH    
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Temur_Gugushvili2
