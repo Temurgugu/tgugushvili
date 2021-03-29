@@ -1,7 +1,7 @@
 ---
 authors:
 - Temur Gugushvili
-bio: .
+bio:
 
 organizations:
 - name: National Agency for Crime Prevention and Probation
