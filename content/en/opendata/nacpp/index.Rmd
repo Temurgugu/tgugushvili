@@ -24,11 +24,11 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 :bar_chart: [National Agency for Crime Prevention and Probation](https://www.facebook.com/CenterforCrimePrevention) publishes [criminal justice data monthly report](https://www.geostat.ge/en/modules/categories/679/unified-report-on-criminal-justice-statistics) (Chapter IV, Section 12) on Geostat's website. The data is available in Appendix - Table # 56 - # 78.
 
-:bar_chart: SPACE II პროექტის ფარგლებში ევროპის საბჭოს 47 წევრ ქვეყანასთან ერთად საქართველოს პრობაციასთან დაკავშირებული [მონაცემები](https://wp.unil.ch/space/space-ii/annual-reports/) ქვეყნდება ყოველწლიურად.   
+:bar_chart: Under the project of SPACE II, the probation related [statistics](https://wp.unil.ch/space/space-ii/annual-reports/) of 47 member countries of the Council of Europe, including Georgia are published yearly. 
 
 :bar_chart: [Statistics](http://diversion.ge/?action=page&pid=52&lang=geo) of the Diversion and Mediation Department is available at [www.diversion.ge](http://www.diversion.ge/?action=page&pid=51&lang=eng). 
 
-:bar_chart: [ბლოგი](https://temurgugushvili.ge/ka/category/%E1%83%90%E1%83%93%E1%83%9B%E1%83%98%E1%83%9C%E1%83%98%E1%83%A1%E1%83%A2%E1%83%A0%E1%83%90%E1%83%AA%E1%83%98%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%9B%E1%83%9D%E1%83%9C%E1%83%90%E1%83%AA%E1%83%94%E1%83%9B%E1%83%94%E1%83%91%E1%83%98/) საჯარო უწყებების მიერ გამოქვეყნებული დანაშაულთან დაკავშირებული ადმინისტრაციული მონაცემების შესახებ. 
+:bar_chart: [Blog](https://temurgugushvili.ge/ka/category/%E1%83%90%E1%83%93%E1%83%9B%E1%83%98%E1%83%9C%E1%83%98%E1%83%A1%E1%83%A2%E1%83%A0%E1%83%90%E1%83%AA%E1%83%98%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%9B%E1%83%9D%E1%83%9C%E1%83%90%E1%83%AA%E1%83%94%E1%83%9B%E1%83%94%E1%83%91%E1%83%98/) on crime-related administrative data published by public institutions. 
 
 
 
