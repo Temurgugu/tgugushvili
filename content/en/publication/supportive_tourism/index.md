@@ -41,7 +41,7 @@ tags:
 title: Participatory policy review - "Supportive Tourism" concept for hand-in-hand rural and mountain development
 url_code: ""
 url_dataset: ""
-url_pdf: "pdf/supportive.pdf"
+url_pdf: "temurgugushvili/supportive.pdf"
 url_poster: ""
 url_project: ""
 url_slides: ""
