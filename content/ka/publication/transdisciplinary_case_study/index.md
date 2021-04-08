@@ -34,7 +34,7 @@ tags:
 title: შემთხვევის შესწავლის ტრანსდისციპლინური საველე კურსის შემუშავება და განხორციელება | სახელმძღვანელო უნივერსიტეტის ლექტორებისთვის
 url_code: ""
 url_dataset: ""
-url_pdf: pdf/Manual_CaucaSust_inGeorgian.pdf
+url_pdf: temurgugushvili/Manual_CaucaSust_inGeorgian.pdf
 url_poster: ""
 url_project: "http://caucasust.boku.ac.at/ka/home-2/"
 url_slides: ""

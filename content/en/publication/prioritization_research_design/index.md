@@ -35,7 +35,7 @@ tags:
 title: Using MAXQDA for Analyzing Documents- An Example of Prioritization Research Design in Urban Development
 url_code: ""
 url_dataset: ""
-url_pdf: "pdf/PrioritizationResearchDesig.pdf"
+url_pdf: "temurgugushvili/PrioritizationResearchDesig.pdf"
 url_poster: ""
 url_project: ""
 url_slides: ""

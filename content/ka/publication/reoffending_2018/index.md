@@ -34,7 +34,7 @@ tags:
 featured: false
 
 
-url_pdf: "pdf/reoffending.pdf"
+url_pdf: "temurgugushvili/reoffending.pdf"
 url_code: ''
 url_dataset: ''
 url_poster: ''
