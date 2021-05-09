@@ -22,8 +22,7 @@ image:
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-
-:bar_chart: On Geostat's website, the [National Agency for Crime Prevention and Probation](https://www.facebook.com/CenterforCrimePrevention) releases a monthly update on [criminal justice statistics] (https://www.geostat.ge/en/modules/categories/679/unified-report-on-criminal-justice-statistics) (Chapter IV, Section 12). Appendix - Table # 56 - # 78 contains the data related probation.
+:bar_chart: On Geostat's website, the [National Agency for Crime Prevention and Probation](https://www.facebook.com/CenterforCrimePrevention) releases a monthly update on [criminal justice statistics](https://www.geostat.ge/en/modules/categories/679/unified-report-on-criminal-justice-statistics) (Chapter IV, Section 12). Appendix - Table # 56 - # 78 contains the data related probation.
 
 :bar_chart: Under the project of SPACE II, the probation related [statistics](https://wp.unil.ch/space/space-ii/annual-reports/) of 47 member countries of the Council of Europe, including Georgia are published yearly. 
 
