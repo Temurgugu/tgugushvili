@@ -10,14 +10,14 @@ links:
   name: 
   url: 
 slides: 
-summary: the project serves primary aim to study the spatial peculiarities and obstacles of integration process of local community-driven economic activities with local tourism supply chain.
+summary: In July 2021, Georgia has launched the project on “Tracing the Link Between Climate Justice Action and the NDCs,” which is already being implemented in Brazil, Columbia, Switzerland, Ukraine, and Germany.
 tags:
 - climate
 - NDC
 - rural
 title: Exploratory study on “Tracing the link between Climate Justice Action and the NDCs”
 url_code: ""
-url_pdf: "https://2bf261c9-de86-45fd-8352-6cb360ec7955.filesusr.com/ugd/94acf7_544214f380bb49d68eb692ee3e4c5a20.pdf"
+url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
