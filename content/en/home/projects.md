@@ -26,8 +26,8 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Completed"
-    tag = "completed"
+    name = "Ongoing"
+    tag = "ongoing"
   
   [[content.filter_button]]
     name = "Rural"
@@ -48,7 +48,10 @@ subtitle = ""
  [[content.filter_button]]
     name = "Protected area"
     tag = "protected area"  
-
+ [[content.filter_button]]
+    name = "Climate Change"
+    tag = "climate change"  
+    
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"

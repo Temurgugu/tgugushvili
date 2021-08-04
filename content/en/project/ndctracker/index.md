@@ -2,7 +2,7 @@
 date: "2021-07-19T00:00:00Z"
 external_link: ""
 image:
-  caption: Photo by Temur Gugushvili
+  caption: Photo by [Etienne Girardet](https://unsplash.com/@etiennegirardet)
   focal_point: Smart
 links:
 - icon: 
@@ -12,9 +12,11 @@ links:
 slides: 
 summary: In July 2021, Georgia has launched the project on “Tracing the Link Between Climate Justice Action and the NDCs,” which is already being implemented in Brazil, Columbia, Switzerland, Ukraine, and Germany.
 tags:
-- climate
+- ongoing
+- Georgia
 - NDC
 - rural
+- climate change
 title: Exploratory study on “Tracing the link between Climate Justice Action and the NDCs”
 url_code: ""
 url_pdf: ""
