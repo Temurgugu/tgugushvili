@@ -50,8 +50,8 @@ community-based renewable energy projects.
 * <gvantsa.salukvadze955@sps.tsu.edu.ge> (Georgia) 
 
 
+This project is part of the [International Climate Initiative (IKI)](https://www.international-climate-initiative.com/en?iki_cookie_check=1).  [The Federal Ministry for the Environment, Nature Conservation and Nuclear Safety (BMU)](https://www.bmu.de/en/) supports this initiative on the basis of a decision adopted by the German Bundestag. The study is commissioned by [Bund für Umwelt und Naturschutz Deutschland e.V. (BUND)](https://www.bund.net/).
 
 
-The Project is financed by [Bund für Umwelt und Naturschutz Deutschland e.V. (BUND)](https://www.bund.net/), Kaiserin-Augusta-Allee 5, 10553 Berlin, Germany 
 
 
