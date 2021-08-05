@@ -43,7 +43,7 @@ community-based renewable energy projects.
 
 * Principal Investigator - [**Gvantsa Salukvadze**](https://scholar.google.com/citations?user=KP-aQeYAAAAJ&hl=en), Pre Doc, Tbilisi State University
 * Consultant - [**Temur Gugushvili**](https://scholar.google.com/citations?user=XIuUIMwAAAAJ&hl=en), Pre Doc, Tbilisi State University <br>
-* Consultant - [**Ekaterine Mikadze**](), MSc, Freelance Practitioner <br>
+* Consultant - [**Ekaterine Mikadze**](https://www.linkedin.com/in/ekaterine-mikadze-a2208458/), MSc, Freelance Practitioner <br>
 
 *Project Contact:* 
 * <Severin.Ettl@bund.net> (Germany) 
