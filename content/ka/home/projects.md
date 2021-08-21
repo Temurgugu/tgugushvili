@@ -26,8 +26,8 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "დასრულებული"
-    tag = "completed"
+    name = "მიმდინარე"
+    tag = "ongoing"
   
   [[content.filter_button]]
     name = "სოფელი"
@@ -47,7 +47,11 @@ subtitle = ""
  
   [[content.filter_button]]
     name = "დაცული ტერიტორიები"
-    tag = "protected area"      
+    tag = "protected area"     
+    
+[[content.filter_button]]
+    name = "ქალაქი-სოფელი მიგრაცია"
+    tag = "UrbanRuralMigration"  
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

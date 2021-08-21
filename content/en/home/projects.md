@@ -48,9 +48,14 @@ subtitle = ""
  [[content.filter_button]]
     name = "Protected area"
     tag = "protected area"  
+    
  [[content.filter_button]]
     name = "Climate Change"
     tag = "climate change"  
+    
+ [[content.filter_button]]
+    name = "Urban–Rural Migration"
+    tag = "UrbanRuralMigration"  
     
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

@@ -4,11 +4,7 @@ external_link: ""
 image:
   caption: Photo by Temur Gugushvili
   focal_point: Smart
-links:
-- icon: 
-  icon_pack: 
-  name: 
-  url: 
+
 slides: 
 summary: The research aims to delve into the process of how global phenomenon, namely expansion of tourism and protected areas shape livelihood practices of local mountain residents.
 tags:
