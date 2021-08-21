@@ -13,7 +13,6 @@ tags:
 - livelihood
 - ongoing 
 - UrbanRuralMigration
-- livelihood
 title: მთიანი რეგიონების ახალი სიცოცხლე - უკუმიგრაციის გამოწვევები და შესაძლებლობები ამბროლაურისა და ონის მუნიციპალიტეტების მაგალითზე
 url_code: ""
 url_pdf: ""
