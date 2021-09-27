@@ -22,13 +22,13 @@ math: true
 projects:
 - internal-project
 publishDate: "2017-01-01T00:00:00Z"
-slides: ggplot2Shiny
+slides:
 summary: An example talk using Academic's Markdown slides feature.
 tags: []
 title: ტურიზმის მონაცემების ვიზუალიზაცია ggplot2 და shiny გამოყენებით
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "/slides/ggplot2Shiny/index.Rmd"
 url_video: ""
 ---
 
