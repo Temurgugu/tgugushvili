@@ -7,7 +7,7 @@ authors:
 - Merab Khokhobaia
 - Temur Gugushvili
 date: "2021-07-07T00:00:00Z"
-doi: " https://doi.org/10.3929/ethz-b-000506344"
+doi: "https://doi.org/10.3929/ethz-b-000506344"
 featured: false
 image: 
 image:
@@ -26,7 +26,14 @@ publishDate: "2021-07-07T00:00:00Z"
 slides: 
 summary: This article outlines the stages of tourism development in Georgia before and after its independence. The emphasis is on the transformations in this economic field in the wake of four major highlighted turning points.
 tags:
-- Source Themes
+- Tourism
+- Post-Soviet
+- Georgia
+- Soviet
+- Transformation
+- Intourist
+- GNTA
+- Rose Revolution
 title: Tourism Transformation in Georgia During the Soviet and Post-Soviet Eras
 url_code: "https://github.com/Temurgugu/tourism_transformation"
 url_dataset: "https://github.com/Temurgugu/tourism_transformation/tree/main/data"

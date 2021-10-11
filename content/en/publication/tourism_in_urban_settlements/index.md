@@ -2,9 +2,7 @@
 abstract: This study discusses the spatial patterns of tourism allocation in urban Georgia through phenomenal changes in tourism performance. Different perspectives are examined towards the role of public infrastructure projects and well-connected internal transportation networks development in the equal distribution of the social and economic gains from the tourism industry. An analysis of statistical indicators of tourism industry performance in the three urban settlements of Batumi, Kutaisi and Tbilisi clearly illustrates the changes that occurred in tourism development in each of the three cities over a ten- year period from 2006 to 2016. Comprehensive analysis and interpretation of statistical data shows the extent to which the expansion of tourism industry in particular cities and regions benefited from the development of infrastructure projects while other cities and regions failed to receive such advantages. Ultimately, the study addresses the research question whether the growth of Georgia’s tourism industry still benefits only its capital, Tbilisi or it has also been valuable for other urban settlements.
 
 author_notes:
-- Equal contribution
-- Equal contribution
-- Equal contribution 
+-  
 authors:
 - Gvantsa Salukvadze
 - Temur Gugushvili
