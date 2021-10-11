@@ -7,7 +7,7 @@ authors:
 - Merab Khokhobaia
 - Temur Gugushvili
 date: "2021-07-07T00:00:00Z"
-doi: "10.3929/ethz-b-000506344"
+doi: " https://doi.org/10.3929/ethz-b-000506344"
 featured: false
 image: 
 image:
