@@ -4,9 +4,9 @@ authors:
 bio:
 
 organizations:
-- name: National Agency for Crime Prevention and Probation
-  url: "https://www.facebook.com/CenterforCrimePrevention"
-role: Head of the Research and Service Department 
+- name: Food and Agriculture Organization (FAO) Representation in Georgia
+  url: "https://www.fao.org/georgia/en/"
+role: Researcher 
 social:
 - icon: envelope
   icon_pack: fas
@@ -34,10 +34,10 @@ user_groups:
 - Visitors
 ---
 
-Currently, I am working at the [National Agency for Crime Prevention and Probation](https://www.facebook.com/CenterforCrimePrevention) as head of Research and Service Department. At the same time, I am a PhD Candidate at Tbilisi State University, Department of Sociology. My academic career already includes several impactful research [projects](https://temurgugushvili.ge/project/) focusing on people's livelihoods in rural and mountain settlements. 
+Currently, I am working at the [Food and Agriculture Organization (FAO) Representation in Georgia](https://www.fao.org/georgia/en/) as Researcher. At the same time, I am a PhD Candidate at Tbilisi State University, Department of Sociology. My academic career already includes several impactful research [projects](https://temurgugushvili.ge/project/) focusing on rural and mountain development.
 
-As doing research in both public and academic sector, I see the advantages as well as disadvantages of both qualitative and quantitative research methods. That is why, in some cases, the only solution to capture the whole perspective is to craft a mixed-methods research design. 
+As researching international, public and academic sectors, I see the advantages and disadvantages of both qualitative and quantitative research methods. That is why, in some cases, the only solution to capture the whole perspective is to craft a mixed-methods research design.
 
-After accumulating research experiences in interdisciplinary, transdisciplinary, participatory, action and transformative studies, I am in favor of these approaches which prevent staying the research results on the dusty shells or databases.
+After accumulating research experiences in interdisciplinary, transdisciplinary, participatory, action and transformative studies, I favour these approaches, which prevent staying the research results on the dusty shells or databases.
 
-I believe that the researcher's primary role is to explore hitherto hidden and spread it in an understandable way to the relevant stakeholders. For this reason, I synthesise in practice social science theories, methods and information handling tools, such as R/Rstudio, QGIS, SPSS, Excel, Access, MAXQDA, Mendeley, etc.
+I believe that the researcher's primary role is to explore the hitherto hidden and spread it in an understandable way to the relevant stakeholders. For this reason, I synthesise in practice social science theories, methods and information handling tools, such as R/Rstudio, QGIS, SPSS, Excel, Access, MAXQDA, Mendeley, etc.
