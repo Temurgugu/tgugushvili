@@ -8,25 +8,26 @@ organizations:
   url: "https://www.fao.org/georgia/en/"
 role: Researcher 
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'
+
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=XIuUIMwAAAAJ&hl=en&authuser=2
-- icon: cv
-  icon_pack: ai
-  link: https://europa.eu/europass/eportfolio/screen/share/ef67ad52-03b9-4e4f-b65a-f4a9a5fa527b?lang=en  
+- icon: github
+  icon_pack: fab
+  link: https://github.com/Temurgugu?tab=repositories
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Temur_Gugushvili2
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0003-0650-9740
-- icon: github
-  icon_pack: fab
-  link: https://github.com/Temurgugu?tab=repositories
-
+- icon: cv
+  icon_pack: ai
+  link: https://europa.eu/europass/eportfolio/screen/share/ef67ad52-03b9-4e4f-b65a-f4a9a5fa527b?lang=en    
+- icon: envelope
+  icon_pack: fas
+  link: '#contact'
+  
 superuser: true
 title: Temur Gugushvili
 user_groups:
