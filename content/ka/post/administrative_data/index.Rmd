@@ -50,6 +50,7 @@ library(gganimate)
 library(hrbrthemes)
 library(ggpubr)
 library(grid)
+library(gifski)
 ```
 
 
@@ -142,7 +143,7 @@ tg_p_2 <- ggplot(data=tg_data_2, aes(x=year, fill=suicide)) +
   theme_gray(base_family="Sylfaen")+
   theme(axis.title.x = element_text(colour="black", size=16, hjust=0.5),
         axis.title.y = element_text(colour="black", size=16, hjust=0.5),
-        axis.text.x=element_text(angle = 30,  hjust=0.5, size=16, colour="black"), 
+        axis.text.x=element_text(angle = 90,  hjust=0.5, size=16, colour="black"), 
         legend.position = "top",
         axis.text.y=element_text(size=16),
         plot.caption = element_text(size=16, colour="black", hjust=0),
@@ -154,7 +155,7 @@ tg_p_2 <- ggplot(data=tg_data_2, aes(x=year, fill=suicide)) +
        subtitle ="",
        caption = "წყარო: შინაგან საქმეთა სამინისტრო,\nმონაცემები დამუშავებულია შინაგან საქმეთა სამინისტროს ტერიტორიული დანაყოფებისმიერ მოწოდებული ინფორმაციის საფუძველზე",
        color="")+
-  xlab("წელი")+
+  xlab("წელი (იანვარი-ივნისი)")+
   ylab("აბსოლუტური რაოდენობა")+
   facet_wrap(vars(Region))+
   coord_cartesian(ylim=c(0,150))+
@@ -166,7 +167,48 @@ tg_p_2 <- ggplot(data=tg_data_2, aes(x=year, fill=suicide)) +
 tg_p_2
 
 ```
-*დიაგრამა 3. თვითმკვლელობისა და თვითმკვლელობის მცდელობის რაოდენობა*
+*დიაგრამა 3. თვითმკვლელობისა და თვითმკვლელობის მცდელობის რაოდენობა რეგიონების მიხედვით*
+
+
+
+
+```{r, tidy=FALSE, echo=FALSE, message = FALSE, fig.dim = c(13, 10)}
+
+loadfonts() 
+ 
+tg_data_2 <- read_excel("~/Documents/github_project/data/suicide.xlsx")
+
+Suicide <- tg_data_2 %>%
+  group_by(suicide, year) %>%
+  summarise(Number = n())
+
+ChartSuicide <- ggplot(Suicide, aes(year, Number)) +
+  geom_col(size=1.2, fill = "#4e70a6") +
+  theme_gray(base_family="Sylfaen")+
+  theme(axis.title.x = element_text(colour="black", size=16, hjust=0.5),
+        axis.title.y = element_text(colour="black", size=16, hjust=0.5),
+        axis.text.x=element_text(angle = 90,  hjust=0.5, size=16, colour="black"), 
+        legend.position = "top",
+        axis.text.y=element_text(size=16),
+        plot.caption = element_text(size=16, colour="black", hjust=0),
+        plot.title=element_text(colour="black", size=20),
+        legend.title=element_text(size=16), 
+        legend.text=element_text(size=16),
+        strip.text.x = element_text( size = 16, color = "black", face = "bold.italic"))+
+  labs(title = "",
+       subtitle ="",
+       caption = "წყარო: შინაგან საქმეთა სამინისტრო,\nმონაცემები დამუშავებულია შინაგან საქმეთა სამინისტროს ტერიტორიული დანაყოფებისმიერ მოწოდებული ინფორმაციის საფუძველზე",
+       color="")+
+  xlab("წელი (იანვარი-ივნისი)")+
+  ylab("აბსოლუტური რაოდენობა")+
+  facet_wrap(vars(suicide))+
+  coord_cartesian(ylim=c(0,560))+
+  scale_y_continuous(breaks=seq(0, 560, 100))
+
+ ChartSuicide   
+
+```
+*დიაგრამა 4. თვითმკვლელობისა და თვითმკვლელობის მცდელობის რაოდენობა*
 
 
 2018 წელს ინფორმაციის თავისუფლების განვითარების ინსტიტუტის (IDFI) მიერ ადმინისტრაციული მონაცემების ხელმისაწვდომობისა და მათი გამოყენების გაზრდის მიზნით ღია მონაცემთა ლაბორატორია - DataLab შეიქმნა. DataLab-ზე არსებული ცხრილების ნაწილის წყარო სხვადასხვა უწყებების ოფიციალურ ვებსაიტებზე არსებული მონაცემებია. IDFI პლატფორმაზე ინფორმაციას აქვეყნებს .xls .csv გაფართოებით (საჯარო .pdf გაფართოებით გამოქვეყნებული მონაცემები გარდაქმნის აღნიშნულ გაფართოებებში).
@@ -179,7 +221,7 @@ tg_p_2
 
 tg_data_5 <- read_csv("~/Documents/github_project/data/violence_family.csv")
 
-tg_data_5 <- dplyr::filter(tg_data_5, age != "უცნობია")
+tg_data_5 <- dplyr::filter(tg_data_5, age != "უცნობია", year != 2021)
 
 age_names <- c(`1_<16` = "<16 წლის",
                `2_17-24` = "17-24 წლის",
@@ -216,7 +258,7 @@ tg_p_5 <- ggplot(data=tg_data_5, aes(x=year, y = number, color=gender, fill = ge
 tg_p_5
 
 ```
-*დიაგრამა 4. ოჯახში ძალადობის ფაქტების ჩამდენთა (მოძალადეთა) რაოდენობა*
+*დიაგრამა 5. ოჯახში ძალადობის ფაქტების ჩამდენთა (მოძალადეთა) რაოდენობა*
 
 
 საქმისწარმოების ელექტრონული სისტემების განვითარება პერმანენტულად მიმდინარეობს [(მონაცემთა ბაზები)](https://catalog.pdp.ge/SearchCatalogue). აღსანიშნავია, რომ ახალი კორონავირუსის (COVID-19) პანდემიის გავრცელებისა და დისტანციური მუშაობის აუცილებლობამ ელექტრონულ სისტემებზე მოთხოვნა გაზარდა და შესაბამისად მათი უფრო სწრაფად განვითარების საჭიროება დადგა. აღნიშნული პროცესი ხელს უწყობს ელექტრონულად ინფორმაციაზე ხელმისაწვდომობის ზრდას. ადმინისტრაციული მონაცემების წვდომასთან ერთად აქტუალური საკითხია მისი შენახვა, გამოქვეყნების ფორმა, რომელიც მონაცემების ანალიზისთვის, მანქანური დამუშავებისათვის მოსახერხებელი უნდა იყოს.
