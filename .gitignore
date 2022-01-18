@@ -4,5 +4,6 @@
 .Ruserdata
 .knit
 .utf8
-blogdown
+/blogdown
 .DS_Store
+Thumbs.db
