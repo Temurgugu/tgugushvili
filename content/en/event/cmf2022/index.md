@@ -1,5 +1,7 @@
 ---
-title: Protected areas and sustainable mountain development- park-people interaction under PA expansion and tourism crisis  
+title: Protected areas and sustainable mountain development
+
+subtitle: Park-people interaction under PA expansion and tourism crisis
 
 event: the third Caucasus Mountain Forum (CMF3)
 event_url: https://www.caucasus-mt.net/Caucasus-Mountain-Forum-2022/call-for-abstracts.html-2
@@ -59,7 +61,8 @@ slides:
 #projects:
 #- 
 ---
-Georgian and Swiss colleagues join to have thematic common session "Protected areas and sustainable mountain development- park-people interaction under PA expansion and tourism crisis" at the  [the third Caucasus Mountain Forum (CMF3)](https://www.caucasus-mt.net/Caucasus-Mountain-Forum-2021/cmf-objectives.html-1).
+
+Georgian and Swiss colleagues develop thematic session on “Protected areas and sustainable mountain development: park-people interaction under PA expansion and tourism crisis” at the [the third Caucasus Mountain Forum (CMF3)](https://www.caucasus-mt.net/Caucasus-Mountain-Forum-2021/cmf-objectives.html-1).
 
 The recent increase of PAs in mountain regions and elsewhere, the expansion of their goals beyond nature conservation, and a general push to more inclusive and participatory planning procedures have led to a proliferation of PA discourses, disputes, and societal impacts. By introducing new concepts and rules, the PA establishes a new reality in the area (Paige, Igoe, Brocking-ton, 2006).
 
@@ -88,4 +91,5 @@ The thematic foci of the session are (among others):
 >- other presentations is coming
 
 
-If you would like to join the session submit [abstract](https://www.caucasus-mt.net/Caucasus-Mountain-Forum-2022/call-for-abstracts.html-2). Abstract submission deadline is 17 January, 2022, but because of covid19 it may change; so, email the staff or check update info on conference [page](https://www.caucasus-mt.net/Caucasus-Mountain-Forum-2022)
+If you would like to join the session, please submit presentation abstract. The [abstract](https://www.caucasus-mt.net/Caucasus-Mountain-Forum-2022/call-for-abstracts.html-2) submission deadline is 17 January, 2022, but due to covid19 pandemic, it may change. For more details, contact the forum representatives (info on the conference [page](https://www.caucasus-mt.net/Caucasus-Mountain-Forum-2022))
+
