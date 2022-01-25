@@ -84,11 +84,23 @@ The thematic foci of the session are (among others):
 >- **Session chairs**: Gvantsa Salukvadze, Annina H. Michel, Temur Gugushvili
 >- **Discussant**: Norman Backhaus
 
+
 >**Oral presentations:**
 
 >- Gvantsa Salukvadze (Tbilisi State University and University of Zurich): *Expansion of Kazbegi National Park and local response: Your Park and my Land?*
 >- Annina H. Michel (University of Zurich): *Exploring landscape meanings with the go-along method*
 >- other presentations is coming
+
+
+---
+**Related articles:**
+
+- [Park-people interaction in mountainous Georgia: The case of Kazbegi National Park](https://temurgugushvili.ge/publication/park-peopleinteraction/)
+- [The Role of Trust in the Participatory Establishment of Protected Areas—Lessons Learnt from a Failed National Park Project in Switzerland](https://www.tandfonline.com/doi/full/10.1080/08941920.2021.1994679)
+- [How can local populations be won over to protected areas?](https://zenodo.org/record/3843063#.YfAfjVhBzrI)
+
+
+
 
 
 If you would like to join the session, please submit presentation abstract. The [abstract](https://www.caucasus-mt.net/Caucasus-Mountain-Forum-2022/call-for-abstracts.html-2) submission deadline is 17 January, 2022, but due to covid19 pandemic, it may change. For more details, contact the forum representatives (info on the conference [page](https://www.caucasus-mt.net/Caucasus-Mountain-Forum-2022))
