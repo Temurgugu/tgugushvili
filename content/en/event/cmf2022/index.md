@@ -89,6 +89,7 @@ The thematic foci of the session are (among others):
 
 >- Gvantsa Salukvadze (Tbilisi State University and University of Zurich): *Expansion of Kazbegi National Park and local response: Your Park and my Land?*
 >- Annina H. Michel (University of Zurich): *Exploring landscape meanings with the go-along method*
+>- Temur Gugushvili (Tbilisi State University), Leonie Greta Schmid (University of Bern), Thomas Kohler PhD (University of Bern), *The transformations of family-run businesses around mountain protected areas*
 >- other presentations is coming
 
 
