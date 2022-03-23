@@ -15,7 +15,6 @@
   url = "#projects"
   weight = 20
   
-  
 [[main]]
   name = "ბლოგი"
   url = "#posts"
@@ -25,7 +24,6 @@
   name = "პუბლიკაციები"
   url = "#publications"
   weight = 40
-  
   
 [[main]]
   name = "კურსები"
@@ -39,7 +37,6 @@
   weight = 60
   parent = "courses"
  
-  
 [[main]]
   name = "ღია მონაცემები"
   url = "#opendata"

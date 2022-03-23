@@ -38,11 +38,10 @@
  
 [[main]]  
   name = "Research methods in Social Science"
-  url = "#course/smd/"
+  url = "course/researchmethods"
   weight = 70
   parent = "courses"
  
-
 [[main]]
   name = "OpenData"
   url = "#opendata"
