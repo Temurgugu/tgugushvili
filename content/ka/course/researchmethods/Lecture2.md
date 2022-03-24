@@ -5,6 +5,8 @@ type: book
 weight: 20
 ---
 
+{{< instagram BWNjjyYFxVx hidecaption >}}
+
 
 ## ძირითადი და დამხმარე ლიტერატურა
 
