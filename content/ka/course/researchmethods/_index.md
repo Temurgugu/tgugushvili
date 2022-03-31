@@ -1,8 +1,7 @@
 ---
 title: კვლევის მეთოდები სოციალურ მეცნიერებებში
 linkTitle: Data Science
-summary: An example of using Wowchemy's Book layout for publishing online courses.
-date: '2021-01-24'
+summary: კვლევის მეთოდები სოციალურ მეცნიერებებში
 type: book
 ---
 
@@ -10,28 +9,20 @@ type: book
 
 {{< toc hide_on="xl" >}}
 
-## What you will learn
+## რა .....
 
 - Fundamental {{<hl>}}Python programming skills{{</hl>}}
 - {{<hl>}}Statistical concepts{{</hl>}} and how to apply them in practice
 - Gain experience with the {{<hl>}}Scikit{{</hl>}}, including data visualization with {{<hl>}}Plotly{{</hl>}} and data wrangling with {{<hl>}}Pandas{{</hl>}}
 
-## Program overview
+## კურსის შეჯამება
 
 The demand for skilled data science practitioners is rapidly growing. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi.
 
-## Courses in this program
+## ლექციის თემები და რესურსები
 
 {{< list_children >}}
 
-## Meet your instructor
 
-{{< mention "admin" >}}
-
-## FAQs
-
-{{< spoiler text="Are there prerequisites?" >}}
-There are no prerequisites for the first course.
-{{< /spoiler >}}
 
 
