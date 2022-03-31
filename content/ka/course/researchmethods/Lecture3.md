@@ -1,5 +1,5 @@
 ---
-title: ცნებების კონცეპტუალიზაცია და ოპერაციონალიზაცია
+title: ოპერაციონალიზაცია
 date: '2021-01-01'
 type: book
 weight: 20
@@ -18,4 +18,4 @@ weight: 20
 📘 ლია წულაძე. სოციოლოგიური კვლევის თვისებრივი მეთოდები. უნივერსიტეტის გამომცემლობა. 2020. გვ., 41-45
 {{< /spoiler >}}
 
-{{< highlight go >}}  [📚 ელ. ბიბლიოთეკა](https://drive.google.com/drive/folders/14XCctw4mjJ4SWiFpQpUqQ6suK9XfqpS8?usp=sharing) {{< /highlight >}}
+[📚 ელ. ბიბლიოთეკა](https://drive.google.com/drive/folders/14XCctw4mjJ4SWiFpQpUqQ6suK9XfqpS8?usp=sharing)
