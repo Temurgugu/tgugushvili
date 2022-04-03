@@ -1,6 +1,6 @@
 ---
 title: კვლევის მეთოდები სოციალურ მეცნიერებებში
-linkTitle: Data Science
+linkTitle: კვლევის მეთოდები
 summary: კვლევის მეთოდები სოციალურ მეცნიერებებში
 type: book
 ---

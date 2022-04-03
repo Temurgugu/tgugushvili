@@ -9,4 +9,4 @@ header:
   image: ""
 ---
 
-Explore our courses below and expand your knowledge!
+ლექციის დროს გამოყენებული რესურსები არის აქ!
