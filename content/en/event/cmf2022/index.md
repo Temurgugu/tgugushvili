@@ -19,9 +19,9 @@ abstract: "The recent increase of PAs in mountain regions and elsewhere, the exp
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-04-19T13:00:00Z"
-date_end: "2022-04-21T15:00:00Z"
-all_day: false
+#date: "2022-04-19T13:00:00Z"
+#date_end: "2022-04-21T15:00:00Z"
+#all_day: false
 
 # Schedule page publish date (NOT talk date).
 publishDate: "2022-01-17T00:00:00Z"
@@ -102,7 +102,6 @@ The thematic foci of the session are (among others):
 
 
 
+If you would like to join the session, please contact us at the following email address temur.gugushvili155@sps.tsu.edu.ge.  Due to the covid19 pandemic, the conference was postponed. The event date will soon be available. Please, check conference's [page](https://www.caucasus-mt.net/Caucasus-Mountain-Forum-2022).
 
-
-If you would like to join the session, please submit presentation abstract. The [abstract](https://www.caucasus-mt.net/Caucasus-Mountain-Forum-2022/call-for-abstracts.html-2) submission deadline is 17 January, 2022, but due to covid19 pandemic, it may change. For more details, contact the forum representatives (info on the conference [page](https://www.caucasus-mt.net/Caucasus-Mountain-Forum-2022))
 
