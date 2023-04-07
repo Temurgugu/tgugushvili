@@ -36,11 +36,6 @@
   url = "course/researchmethods"
   weight = 60
   parent = "courses"
- 
-[[main]]
-  name = "დათა"
-  url = "#opendata"
-  weight = 70
 
 [[main]]
   name = "დამიკავშირდი"
