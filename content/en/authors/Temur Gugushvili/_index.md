@@ -4,9 +4,9 @@ authors:
 bio:
 
 organizations:
-- name: Food and Agriculture Organization (FAO) Representation in Georgia
-  url: "https://www.fao.org/georgia/en/"
-role: Researcher 
+- name: Center for Eastern European Studies
+  url: "https://www.cees.uzh.ch/en/ueberuns.html"
+role: Fellow 
 social:
 
 - icon: google-scholar
@@ -15,18 +15,10 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/Temurgugu?tab=repositories
-- icon: researchgate
-  icon_pack: ai
-  link: https://www.researchgate.net/profile/Temur_Gugushvili2
-- icon: orcid
-  icon_pack: ai
-  link: https://orcid.org/0000-0003-0650-9740
 - icon: cv
   icon_pack: ai
   link: https://europa.eu/europass/eportfolio/screen/share/ef67ad52-03b9-4e4f-b65a-f4a9a5fa527b?lang=en    
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'
+
   
 superuser: true
 title: Temur Gugushvili
@@ -35,10 +27,9 @@ user_groups:
 - Visitors
 ---
 
-Currently, I am working at the [Food and Agriculture Organization (FAO) Representation in Georgia](https://www.fao.org/georgia/en/) as Researcher. At the same time, I am a PhD Candidate at Tbilisi State University, Department of Sociology. My academic career already includes several impactful research [projects](https://temurgugushvili.ge/project/) focusing on rural and mountain development.
+I am a Fellow at the [Center for Eastern European Studies](https://www.cees.uzh.ch/en/ueberuns.html) and an Assistant Professor at the [International Black Sea University](https://ibsu.edu.ge/en/law-page/about-school/).
 
-As researching international, public and academic sectors, I see the advantages and disadvantages of both qualitative and quantitative research methods. That is why, in some cases, the only solution to capture the whole perspective is to craft a mixed-methods research design.
+With years of experience in research and consulting, I specialize in agriculture, tourism, and rural development for international, public, and academic sectors.
 
-After accumulating research experiences in interdisciplinary, transdisciplinary, participatory, action and transformative studies, I favour these approaches, which prevent staying the research results on the dusty shells or databases.
+I'm passionate about applying mixed-methods approaches and collaborating across disciplines and sectors to produce real-world solutions. I believe that research is only meaningful if it leads to tangible action and transformative change. That's why I advocate for participatory methods that engage communities and stakeholders in the research process, so that our findings don't end up collecting dust on shelves or in databases.
 
-I believe that the researcher's primary role is to explore the hitherto hidden and spread it in an understandable way to the relevant stakeholders. For this reason, I synthesise in practice social science theories, methods and information handling tools, such as R/Rstudio, QGIS, SPSS, Excel, Access, MAXQDA, Mendeley, etc.

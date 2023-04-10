@@ -12,50 +12,20 @@ subtitle = ""
   # Page type to display. E.g. project.
   page_type = "project"
   
-  # Filter toolbar (optional).
+
   # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
   # To show all items, set `tag` to "*".
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove toolbar, delete/comment all instances of `[[content.filter_button]]` below.
   
-  # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
-  filter_default = 0
+ #  Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
+ #  filter_default = 0
   
-  [[content.filter_button]]
-    name = "All"
-    tag = "*"
+ #  [[content.filter_button]]
+ #    name = "All"
+ #    tag = "*"
   
-  [[content.filter_button]]
-    name = "Ongoing"
-    tag = "ongoing"
-  
-  [[content.filter_button]]
-    name = "Rural"
-    tag = "rural"
 
-  [[content.filter_button]]
-    name = "Mountain"
-    tag = "mountain"
- 
-  [[content.filter_button]]
-    name = "Tourism"
-    tag = "tourism"   
-    
- [[content.filter_button]]
-    name = "Livelihood"
-    tag = "livelihood" 
-    
- [[content.filter_button]]
-    name = "Protected area"
-    tag = "protected area"  
-    
- [[content.filter_button]]
-    name = "Climate Change"
-    tag = "climate change"  
-    
- [[content.filter_button]]
-    name = "Urban–Rural Migration"
-    tag = "UrbanRuralMigration"  
     
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -86,7 +56,7 @@ subtitle = ""
   
   # Background image.
   # image = "background.jpg"  # Name of image in `static/media/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  # image_darken = 0.4  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
   # text_color_light = true  

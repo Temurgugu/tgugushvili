@@ -1,0 +1,67 @@
+---
+title: "Probation in Numbers and "
+author: "თემურ გუგუშვილი"
+date: '2020-10-30T15:13:14-05:00'
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+tags:
+- სტატისტიკა
+- არჩევნები
+- საპარლამენტო არჩევნები
+categories: საპარლამენტო არჩევნები
+image:
+  placement: 1
+  caption: "Photo by [Academic](https://sourcethemes.com/academic/)"
+  focal_point: ""
+  preview_only: true
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+```{r, include = FALSE}
+library(readxl)
+library(tidyverse)
+library(ggplot2)
+
+```
+
+```{r data, echo=FALSE,    warning = FALSE, message = FALSE}
+
+Export <- readr::read_csv("/Users/macbook/Documents/test/ggplot/ImportExportGeorgia/Data/ExportByCoutry.csv")
+
+Exportfilter <- Export %>%
+  group_by(Year, Country, HSText, HS) %>%
+  summarise(ThsdUSD10002 = sum(ThsdUSD1000)) %>%
+    mutate(ThsdUSD1000000 = ThsdUSD10002/1000) %>%
+filter(Year == 2019)
+
+
+```
+
+
+
+```{r viz, echo=FALSE,   warning = FALSE, message = FALSE, fig.dim = c(8, 9)}
+
+
+export  <- ggplot2::ggplot(Exportfilter, aes(Country, HSText, fill = ThsdUSD1000000))+
+  geom_tile() +
+  theme_minimal(base_family="Sylfaen") +
+  theme(axis.text = element_blank())+
+
+  labs(title = "Number of visits in protected areas (Georgia)",
+       subtitle ="",
+       caption = "Source: Agency of Protected Areas",
+       x = "Year",
+       y = "Visits")+
+  scale_fill_distiller(name = "Number of Visits",
+                       palette = "RdPu",
+                       direction = 1)
+  
+
+plotly::ggplotly(export)
+
+```

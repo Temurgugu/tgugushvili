@@ -26,7 +26,7 @@
   
 [[main]]
   name = "Publications"
-  url = "#publications"
+  url = "https://temurgugushvili.ge/publication/"
   weight = 50
   
     
@@ -41,11 +41,6 @@
   url = "course/researchmethods"
   weight = 70
   parent = "courses"
- 
-[[main]]
-  name = "OpenData"
-  url = "#opendata"
-  weight = 80
 
 [[main]]
   name = "Contact"
