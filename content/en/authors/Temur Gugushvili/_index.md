@@ -4,9 +4,9 @@ authors:
 bio:
 
 organizations:
-- name: Center for Eastern European Studies
-  url: "https://www.cees.uzh.ch/en/ueberuns.html"
-role: Fellow 
+- name: International Black Sea University
+  url: "https://ibsu.edu.ge/en/law-page/about-school/"
+role: Assistant professor
 social:
 
 - icon: google-scholar
