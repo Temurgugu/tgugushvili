@@ -1,0 +1,77 @@
+---
+title: "მოსწავლეების რაოდენობა"
+author: "თემურ გუგუშვილი"
+date: '2023-08-21T15:13:14-05:00'
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+tags:
+- სტატისტიკა
+- სკოლა
+- საპარლამენტო არჩევნები
+categories: სკოლა
+image:
+  placement: 1
+  caption: "Photo by [Academic](https://sourcethemes.com/academic/)"
+  focal_point: ""
+  preview_only: true
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+მონაცემების მოსწავლეების რაოდენობის შესახებ გამოვითხოვე [askgov.ge-ის](https://askgov.ge/ka/request/sajaro_zogadsaganmanatleblo_skol#incoming-3740) პლატფორმის გამოყენები. თავდაპირველი მიზანი იყო მოსწავლეების რაოდენობით წარმოდგენის შექმნა მუნიციპალიტეტების დემოგრაფიული სტრუქტურის ცვილების შესახებ.
+
+განათლების მართვის საინფორმაციო სისტემიდან ჯერ-ჯერობით ვერ მივიღე თითოეული მუნიციპალიტეტისთვის ქალაქი-სოფლის მიხედვით მონაცემები. 
+
+ვიზუალიზაციით  შეგიძლიათ შეადაროთ მუნიციპალიტეტები, რეგიონები და ა.შ.
+
+მცირე დაკვირვებით, ბოლო ორი ათწლეულის განმავლობაში დიდ ქალაქებში მოსწავლეების რაოდენობა იზრდება ხოლო მცირე და მაღალმთიან მუნიციპალიტეტებში კი მცირდება.
+
+```{r, include = FALSE}
+library(readxl)
+library(tidyverse)
+library(ggplot2)
+library(grid)
+```
+
+
+
+```{r, tidy=FALSE, echo=FALSE, message = FALSE, fig.dim = c(8, 6)}
+
+
+#Import data
+
+Students <- readr::read_csv("/Users/macbook/Documents/R/ggplot/AskGov.ge/Data/students.csv")
+
+
+#viz
+
+studentsVIZ <- ggplot2::ggplot(Students, aes(year, students, color = region, group = municipality))+
+  geom_line(alpha=1)+
+  theme_minimal(base_family="Sylfaen") +
+  theme(axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+    axis.text.x=element_text(angle = 90,  hjust=0.5, colour="black"),
+    plot.title = element_text(size=20, colour="#035f8a", hjust=0),
+    plot.subtitle = element_text(size=12, colour="black", hjust=0)) +
+  labs(title = "",
+       subtitle = "",
+       x = "",
+       y = "მოსწავლეების რაოდენობა")+
+  scale_x_continuous(breaks=seq(2006, 2022, 4)) +
+  scale_y_continuous(labels = scales::comma, position = "right")+
+  facet_wrap(vars(city), scales = "free")
+
+
+
+st <- plotly::ggplotly(studentsVIZ)
+
+st 
+
+
+```
+*დიაგრამა 1. მოსწავლეების რაოდენობა(საჯარო და კერძო ზოგადსაგანმანათლებლო დაწესებულებებში(სასწავლო წლის დასაწყისისათვის)*
+
