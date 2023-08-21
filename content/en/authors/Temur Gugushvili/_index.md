@@ -4,9 +4,9 @@ authors:
 bio:
 
 organizations:
-- name: Center for Eastern European Studies
-  url: "https://www.cees.uzh.ch/en/ueberuns.html"
-role: Fellow 
+- name: International Black Sea University
+  url: "https://ibsu.edu.ge/en/law-page/about-school/"
+role: Assistant professor
 social:
 
 - icon: google-scholar
@@ -27,7 +27,7 @@ user_groups:
 - Visitors
 ---
 
-I am a Fellow at the [Center for Eastern European Studies](https://www.cees.uzh.ch/en/ueberuns.html) and an Assistant Professor at the [International Black Sea University](https://ibsu.edu.ge/en/law-page/about-school/).
+I am an Assistant Professor at the [International Black Sea University](https://ibsu.edu.ge/en/law-page/about-school/).
 
 With years of experience in research and consulting, I specialize in agriculture, tourism, and rural development for international, public, and academic sectors.
 
