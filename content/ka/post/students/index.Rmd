@@ -1,7 +1,7 @@
 ---
 title: "მოსწავლეების რაოდენობა"
 author: "თემურ გუგუშვილი"
-date: '2023-08-21T15:13:14-05:00'
+date: '2023-08-20T15:13:14-05:00'
 output:
   html_document:
     df_print: paged
