@@ -28,7 +28,7 @@ user_groups:
 ---
 
 
-<p style="padding: 45px;">
+<p style="padding: 40px;">
 
 
 I am affiliated with [International Black Sea University](https://ibsu.edu.ge/en/law-page/about-school/) as Assistant Professor and working with international and local organizations by consulting in the field of my propositional expertise. With a rich background in research and consulting, I specialize in agriculture, tourism, and rural development across international, public, and academic sectors.
