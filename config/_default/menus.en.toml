@@ -37,10 +37,6 @@
   weight = 70
   parent = "courses"
 
-[[main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 100  
 
   
 
