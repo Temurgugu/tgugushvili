@@ -5,8 +5,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
-title = "Projects"
-subtitle = ""
+title = "Ongoing projects"
+subtitle = "The projects to which I have dedicated my utmost commitment"
 
 [content]
   # Page type to display. E.g. project.
